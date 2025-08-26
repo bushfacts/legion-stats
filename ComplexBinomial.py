@@ -1,33 +1,43 @@
+# probably want to emphasize how many dice are in each roll
+# cover as a separate chart?
+# totals to include: dice thrown, wounds delivered, blocks made, tokens gained (contrasted to total action breakdown)
+# all actions taken: move, attack, aim, dodge, standby, guidance, force powers, etc 
+
 import pandas as pd
 import math
 
-data = [["BushFacts", True, 2, 3, 4, True, 5],
-        ["BushFacts", False, 5, 0, 0, False, 0]]
 
 def GetData():
-    pass
+    df = pd.read_csv("test data.csv")
+    return df
 
-# structure will be
-# name, offense, red, black, white, surge, result
-def CalculateProbabilities():
-    for d in data:
-        name = d[0]
-        red = int(d[2])
-        black = int(d[3])
-        white = int(d[4])
-        result = int(d[6])
-        surge = 0
-        if d[5]:
-            surge = 1
-        if d[1]:
-            cumProb = 0
-            for res in range(result, red + black + white + 1):
-                cumProb = cumProb + OffenseSingleProb(red, black, white, surge, res)
-        else:
-            cumProb = 0
-            for res in range(result, red + white + 1):
-                cumProb = cumProb + DefenseSingleProb(red, white, surge, res)
-            print(cumProb)
+def CalculateAttackProbabilities(data):
+    chartData = []
+    for d in data.iterrows():
+        rd = d[1]["Round"]
+        attacker = d[1]["Attacker"]
+        red = int(d[1]["Red"])
+        black = int(d[1]["Black"])
+        white = int(d[1]["White"])
+        surge = d[1]["Surge"]
+        result = int(d[1]["Result"])
+        defender = d[1]["Defender"]
+        dRed = int(d[1]["dRed"])
+        dWhite = int(d[1]["dWhite"])
+        dSurge = d[1]["dSurge"]
+        dResult = int(d[1]["dResult"])
+
+        cumOffenseProb = 0
+        for res in range(result, red + black + white + 1):
+            cumOffenseProb = cumOffenseProb + OffenseSingleProb(red, black, white, surge, res)
+
+        cumDefenseProb = 0
+        for dRes in range(dResult, dRed + dWhite + 1):
+            cumDefenseProb = cumDefenseProb + DefenseSingleProb(dRed, dWhite, dSurge, dRes)
+            
+        chartData.append([rd, attacker, max(1-cumOffenseProb,0), red+black+white, defender, max(1-cumDefenseProb,0), dRed+dWhite]) 
+
+    return chartData
                 
 def OffenseSingleProb(red, black, white, surge, result):
     prob = 0
@@ -57,4 +67,6 @@ def DefenseSingleProb(red, white, surge, result):
         prob = prob + p
     return prob
 
-CalculateProbabilities()
+data = GetData()
+luckData = CalculateAttackProbabilities(data)
+print(luckData)
