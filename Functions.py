@@ -21,6 +21,7 @@ def DFToCSV():
     pass
 
 # can afford to be messy since this is computer generated text
+# re-rolls currently ignored
 def ParseDieRoll(line1, line2):
     timeStamp = line1.split("]")[0][1:]
     offense = False
