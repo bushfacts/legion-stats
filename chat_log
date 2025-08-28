@@ -1,0 +1,366 @@
+System Console
+
+To autocomplete commands hit <tab>.
+Type help for help.
+
+[08:33:29]  Connected to Steam.
+[08:33:29]  34 Subscribed Workshop Mods.
+[08:33:29]  Querying Workshop...1
+[08:33:30]  Workshop mods are up-to-date.
+[08:33:30]  Workshop thumbnails are up-to-date.
+[08:33:48]  Camera # 1, 2, 3, 4 available.
+[08:34:04]  Loading complete.
+[08:34:04]  Game Load elapsed 25.571 (seconds)
+[08:35:11]  BLUE rolled 4 attack dice ( pool: 4R )
+0 CRITS, 2 HITS, 2 SURGES.
+[08:35:25]  BLUE re-rolled 2R of 4 attack dice ( pool: 4R )
+0 CRITS, 3 HITS, 1 SURGES.
+[08:35:38]  RED rolled 3 defense dice ( pool: 3W )
+1 BLOCKS, 0 SURGES.
+[08:35:44]  RED rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 2 SURGES.
+[08:40:17]  BLUE rolled 4 attack dice ( pool: 4R )
+0 CRITS, 4 HITS, 0 SURGES.
+[08:40:25]  RED rolled 4 defense dice ( pool: 4W )
+0 BLOCKS, 1 SURGES.
+[08:40:36]  RED rolled 3 defense dice ( pool: 3R )
+2 BLOCKS, 0 SURGES.
+[08:43:13]  RED rolled 3 attack dice ( pool: 2B 1W )
+0 CRITS, 0 HITS, 0 SURGES.
+[08:43:27]  RED rolled 4 attack dice ( pool: 4W )
+0 CRITS, 0 HITS, 1 SURGES.
+[08:43:33]  BLUE rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[08:43:36]  BLUE rolled 1 defense dice ( pool: 1R )
+1 BLOCKS, 0 SURGES.
+[08:48:46]  BLUE rolled 4 attack dice ( pool: 4R )
+0 CRITS, 1 HITS, 2 SURGES.
+[08:48:56]  BLUE re-rolled 1R of 4 attack dice ( pool: 4R )
+0 CRITS, 2 HITS, 2 SURGES.
+[08:49:02]  RED rolled 2 defense dice ( pool: 2W )
+1 BLOCKS, 0 SURGES.
+[08:49:11]  RED rolled 3 defense dice ( pool: 3R )
+0 BLOCKS, 1 SURGES.
+[08:57:02]  BLUE rolled 9 attack dice ( pool: 1R 4B 4W )
+2 CRITS, 2 HITS, 2 SURGES.
+[08:57:13]  BLUE re-rolled 1R 2W of 9 attack dice ( pool: 1R 4B 4W )
+3 CRITS, 3 HITS, 2 SURGES.
+[08:57:56]  RED rolled 4 defense dice ( pool: 4W )
+1 BLOCKS, 0 SURGES.
+[08:58:10]  RED rolled 6 defense dice ( pool: 6W )
+2 BLOCKS, 1 SURGES.
+[08:58:31]  BLUE rolled 1 attack dice ( pool: 1R )
+0 CRITS, 1 HITS, 0 SURGES.
+[08:58:48]  RED rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[09:04:36]  RED rolled 3 attack dice ( pool: 3R )
+0 CRITS, 1 HITS, 1 SURGES.
+[09:10:00]  RED rolled 1 defense dice ( pool: 1R )
+1 BLOCKS, 0 SURGES.
+[09:14:22]  RED rolled 10 attack dice ( pool: 2R 4B 4W )
+1 CRITS, 4 HITS, 0 SURGES.
+[09:14:31]  RED re-rolled 1B 2W of 10 attack dice ( pool: 2R 4B 4W )
+1 CRITS, 5 HITS, 0 SURGES.
+[09:14:48]  BLUE rolled 5 defense dice ( pool: 5W )
+1 BLOCKS, 1 SURGES.
+[09:15:10]  BLUE rolled 2 defense dice ( pool: 2R )
+2 BLOCKS, 0 SURGES.
+[09:15:36]  BLUE rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 0 SURGES.
+[09:15:56]  BLUE rolled 3 attack dice ( pool: 3R )
+0 CRITS, 2 HITS, 1 SURGES.
+[09:16:27]  RED rolled 3 defense dice ( pool: 3R )
+2 BLOCKS, 1 SURGES.
+[09:16:36]  BLUE rolled 3 attack dice ( pool: 3R )
+0 CRITS, 3 HITS, 0 SURGES.
+[09:16:39]  Error Network Remote LuaGameObjectScript/ClickButtonRPC: Exception has been thrown by the target of an invocation.
+[09:16:42]  RED rolled 3 defense dice ( pool: 3W )
+2 BLOCKS, 0 SURGES.
+[09:16:48]  RED rolled 1 defense dice ( pool: 1R )
+0 BLOCKS, 0 SURGES.
+[09:17:08]  RED re-rolled 2R of 3 defense dice ( pool: 3R )
+2 BLOCKS, 0 SURGES.
+[09:19:13]  RED rolled 3 attack dice ( pool: 2B 1W )
+1 CRITS, 2 HITS, 0 SURGES.
+[09:19:27]  BLUE rolled 3 defense dice ( pool: 3R )
+2 BLOCKS, 0 SURGES.
+[09:19:43]  RED rolled 4 attack dice ( pool: 4W )
+0 CRITS, 0 HITS, 1 SURGES.
+[09:19:46]  RED re-rolled 2W of 4 attack dice ( pool: 4W )
+0 CRITS, 0 HITS, 2 SURGES.
+[09:19:58]  BLUE rolled 1 defense dice ( pool: 1R )
+1 BLOCKS, 0 SURGES.
+[09:21:12]  BLUE rolled 8 attack dice ( pool: 4B 4W )
+0 CRITS, 2 HITS, 0 SURGES.
+[09:21:20]  BLUE re-rolled 2B of 8 attack dice ( pool: 4B 4W )
+0 CRITS, 3 HITS, 0 SURGES.
+[09:21:34]  BLUE re-rolled 1B 1W of 8 attack dice ( pool: 4B 4W )
+1 CRITS, 3 HITS, 0 SURGES.
+[09:21:52]  RED rolled 3 defense dice ( pool: 3R )
+2 BLOCKS, 1 SURGES.
+[09:22:37]  BLUE rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 1 SURGES.
+[09:25:53]  RED rolled 6 attack dice ( pool: 6R )
+0 CRITS, 3 HITS, 2 SURGES.
+[09:28:08]  BLUE rolled 3 defense dice ( pool: 3W )
+0 BLOCKS, 1 SURGES.
+[09:31:45]  RED rolled 2 attack dice ( pool: 2R )
+0 CRITS, 1 HITS, 0 SURGES.
+[09:34:59]  BLUE rolled 1 defense dice ( pool: 1W )
+1 BLOCKS, 0 SURGES.
+[09:36:06]  BLUE rolled 4 attack dice ( pool: 4B )
+1 CRITS, 3 HITS, 0 SURGES.
+[09:36:11]  RED rolled 4 defense dice ( pool: 4R )
+3 BLOCKS, 0 SURGES.
+[09:36:33]  RED rolled 2 defense dice ( pool: 2W )
+1 BLOCKS, 0 SURGES.
+[09:38:14]  BLUE rolled 6 attack dice ( pool: 6B )
+2 CRITS, 1 HITS, 2 SURGES.
+[09:38:22]  BLUE re-rolled 1B of 6 attack dice ( pool: 6B )
+2 CRITS, 1 HITS, 2 SURGES.
+[09:38:42]  BLUE re-rolled 1B of 6 attack dice ( pool: 6B )
+2 CRITS, 1 HITS, 2 SURGES.
+[09:38:49]  BLUE re-rolled 1B of 6 attack dice ( pool: 6B )
+2 CRITS, 2 HITS, 2 SURGES.
+[09:38:56]  RED rolled 6 defense dice ( pool: 6R )
+4 BLOCKS, 1 SURGES.
+[09:40:15]  BLUE rolled 4 defense dice ( pool: 4W )
+0 BLOCKS, 0 SURGES.
+[09:40:49]  BLUE rolled 3 attack dice ( pool: 3R )
+0 CRITS, 2 HITS, 0 SURGES.
+[09:41:09]  RED rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 1 SURGES.
+[09:41:14]  RED rolled 1 defense dice ( pool: 1R )
+1 BLOCKS, 0 SURGES.
+[09:43:24]  RED rolled 4 attack dice ( pool: 4W )
+1 CRITS, 0 HITS, 0 SURGES.
+[09:43:29]  BLUE rolled 1 defense dice ( pool: 1R )
+1 BLOCKS, 0 SURGES.
+[09:43:45]  BLUE rolled 3 defense dice ( pool: 3W )
+0 BLOCKS, 0 SURGES.
+[09:49:24]  BLUE rolled 5 attack dice ( pool: 5B )
+0 CRITS, 3 HITS, 2 SURGES.
+[09:49:35]  RED rolled 5 defense dice ( pool: 5W )
+1 BLOCKS, 1 SURGES.
+[09:49:41]  RED rolled 3 defense dice ( pool: 3R )
+2 BLOCKS, 0 SURGES.
+[09:55:00]  RED rolled 10 attack dice ( pool: 2R 4B 4W )
+1 CRITS, 2 HITS, 4 SURGES.
+[09:55:16]  RED re-rolled 1R 2B of 10 attack dice ( pool: 2R 4B 4W )
+1 CRITS, 2 HITS, 2 SURGES.
+[09:55:33]  BLUE rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 0 SURGES.
+[09:55:43]  BLUE rolled 2 defense dice ( pool: 2R )
+2 BLOCKS, 0 SURGES.
+[09:55:48]  BLUE re-rolled 1R of 3 defense dice ( pool: 3R )
+3 BLOCKS, 0 SURGES.
+[09:57:43]  BLUE rolled 10 attack dice ( pool: 2R 4B 4W )
+1 CRITS, 1 HITS, 4 SURGES.
+[09:58:06]  BLUE re-rolled 2R 1B of 10 attack dice ( pool: 2R 4B 4W )
+1 CRITS, 2 HITS, 4 SURGES.
+[09:58:26]  BLUE re-rolled 1R 2B of 10 attack dice ( pool: 2R 4B 4W )
+2 CRITS, 3 HITS, 3 SURGES.
+[09:59:14]  RED rolled 5 defense dice ( pool: 5W )
+1 BLOCKS, 1 SURGES.
+[09:59:23]  RED rolled 6 defense dice ( pool: 6R )
+4 BLOCKS, 0 SURGES.
+[09:59:45]  BLUE rolled 1 attack dice ( pool: 1B )
+0 CRITS, 1 HITS, 0 SURGES.
+[10:02:02]  Error Network Remote LuaGameObjectScript/ClickButtonRPC: Exception has been thrown by the target of an invocation.
+[10:02:03]  Error Network Remote LuaGameObjectScript/ClickButtonRPC: Exception has been thrown by the target of an invocation.
+[10:02:09]  RED rolled 10 attack dice ( pool: 5B 5W )
+1 CRITS, 0 HITS, 3 SURGES.
+[10:02:17]  BLUE rolled 4 defense dice ( pool: 4R )
+2 BLOCKS, 1 SURGES.
+[10:03:43]  RED rolled 4 attack dice ( pool: 4B )
+0 CRITS, 2 HITS, 1 SURGES.
+[10:04:30]  BLUE rolled 3 attack dice ( pool: 3B )
+0 CRITS, 1 HITS, 0 SURGES.
+[10:12:52]  RED rolled 6 attack dice ( pool: 6R )
+2 CRITS, 2 HITS, 0 SURGES.
+[10:13:44]  BLUE rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[10:14:04]  BLUE rolled 7 attack dice ( pool: 3R 4B )
+2 CRITS, 1 HITS, 3 SURGES.
+[10:14:39]  RED rolled 3 defense dice ( pool: 3R )
+1 BLOCKS, 1 SURGES.
+[10:16:32]  RED rolled 10 attack dice ( pool: 5B 5W )
+2 CRITS, 0 HITS, 4 SURGES.
+[10:16:42]  BLUE rolled 6 defense dice ( pool: 6R )
+3 BLOCKS, 0 SURGES.
+[10:17:55]  BLUE rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[10:18:38]  BLUE rolled 8 attack dice ( pool: 3R 5B )
+2 CRITS, 2 HITS, 1 SURGES.
+[10:18:47]  RED rolled 4 defense dice ( pool: 4R )
+4 BLOCKS, 0 SURGES.
+[10:20:49]  RED rolled 6 attack dice ( pool: 2R 4B )
+0 CRITS, 3 HITS, 0 SURGES.
+[10:20:54]  BLUE rolled 3 defense dice ( pool: 3R )
+1 BLOCKS, 2 SURGES.
+[10:23:02]  BLUE rolled 3 attack dice ( pool: 3R )
+0 CRITS, 3 HITS, 0 SURGES.
+[10:23:07]  RED rolled 3 defense dice ( pool: 3W )
+1 BLOCKS, 1 SURGES.
+[10:23:13]  RED rolled 1 defense dice ( pool: 1R )
+1 BLOCKS, 0 SURGES.
+[10:24:03]  RED rolled 5 attack dice ( pool: 5W )
+1 CRITS, 3 HITS, 0 SURGES.
+[10:24:08]  RED re-rolled 1W of 5 attack dice ( pool: 5W )
+1 CRITS, 3 HITS, 0 SURGES.
+[10:24:16]  BLUE rolled 4 defense dice ( pool: 4R )
+2 BLOCKS, 2 SURGES.
+[10:25:13]  BLUE rolled 7 attack dice ( pool: 7R )
+1 CRITS, 2 HITS, 2 SURGES.
+[10:25:18]  BLUE re-rolled 2R of 7 attack dice ( pool: 7R )
+1 CRITS, 4 HITS, 2 SURGES.
+[10:25:25]  RED rolled 7 defense dice ( pool: 7R )
+4 BLOCKS, 1 SURGES.
+[10:26:40]  BLUE rolled 4 attack dice ( pool: 4R )
+1 CRITS, 2 HITS, 1 SURGES.
+[10:26:47]  RED rolled 4 defense dice ( pool: 4R )
+2 BLOCKS, 1 SURGES.
+[10:27:24]  BLUE rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 1 SURGES.
+[10:28:52]  BLUE rolled 3 defense dice ( pool: 3W )
+0 BLOCKS, 1 SURGES.
+[10:30:10]  RED rolled 6 attack dice ( pool: 6R )
+1 CRITS, 4 HITS, 0 SURGES.
+[10:30:23]  BLUE rolled 4 defense dice ( pool: 4R )
+1 BLOCKS, 3 SURGES.
+[10:31:45]  BLUE rolled 5 defense dice ( pool: 5W )
+1 BLOCKS, 0 SURGES.
+[10:33:10]  RED rolled 4 defense dice ( pool: 4W )
+1 BLOCKS, 1 SURGES.
+[10:34:29]  RED rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 0 SURGES.
+[10:34:40]  RED rolled 1 attack dice ( pool: 1B )
+0 CRITS, 1 HITS, 0 SURGES.
+[10:36:00]  BLUE rolled 5 attack dice ( pool: 3R 1B 1W )
+1 CRITS, 2 HITS, 1 SURGES.
+[10:36:12]  RED rolled 4 defense dice ( pool: 4R )
+1 BLOCKS, 0 SURGES.
+[10:36:52]  BLUE rolled 1 attack dice ( pool: 1B )
+1 CRITS, 0 HITS, 0 SURGES.
+[10:39:32]  RED rolled 4 attack dice ( pool: 2R 1B 1W )
+1 CRITS, 2 HITS, 0 SURGES.
+[10:39:37]  RED re-rolled 1B of 4 attack dice ( pool: 2R 1B 1W )
+1 CRITS, 3 HITS, 0 SURGES.
+[10:39:42]  BLUE rolled 3 defense dice ( pool: 3W )
+0 BLOCKS, 1 SURGES.
+[10:39:47]  BLUE rolled 3 defense dice ( pool: 3R )
+3 BLOCKS, 0 SURGES.
+[10:40:34]  BLUE rolled 2 defense dice ( pool: 2W )
+1 BLOCKS, 0 SURGES.
+[10:43:33]  RED rolled 2 attack dice ( pool: 2R )
+0 CRITS, 0 HITS, 0 SURGES.
+[10:43:38]  RED rolled 2 attack dice ( pool: 2R )
+0 CRITS, 1 HITS, 1 SURGES.
+[10:43:49]  BLUE rolled 2 defense dice ( pool: 2R )
+1 BLOCKS, 0 SURGES.
+[10:46:44]  RED rolled 4 attack dice ( pool: 4B )
+2 CRITS, 2 HITS, 0 SURGES.
+[10:46:55]  RED rolled 2 attack dice ( pool: 2B )
+1 CRITS, 0 HITS, 0 SURGES.
+[10:47:02]  BLUE rolled 1 defense dice ( pool: 1R )
+0 BLOCKS, 0 SURGES.
+[10:52:17]  RED rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[10:52:54]  RED rolled 6 attack dice ( pool: 6R )
+1 CRITS, 3 HITS, 1 SURGES.
+[10:53:00]  RED re-rolled 2R of 6 attack dice ( pool: 6R )
+1 CRITS, 3 HITS, 1 SURGES.
+[10:53:07]  BLUE rolled 4 defense dice ( pool: 4R )
+2 BLOCKS, 0 SURGES.
+[10:56:48]  RED rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[10:58:10]  BLUE rolled 3 attack dice ( pool: 3R )
+0 CRITS, 2 HITS, 0 SURGES.
+[10:58:18]  RED rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 1 SURGES.
+[10:58:22]  RED rolled 1 defense dice ( pool: 1R )
+1 BLOCKS, 0 SURGES.
+[10:58:31]  RED rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[10:59:03]  RED rolled 3 attack dice ( pool: 2R 1B )
+1 CRITS, 1 HITS, 0 SURGES.
+[10:59:06]  RED re-rolled 1B of 3 attack dice ( pool: 2R 1B )
+1 CRITS, 1 HITS, 1 SURGES.
+[10:59:11]  BLUE rolled 3 defense dice ( pool: 3R )
+1 BLOCKS, 0 SURGES.
+[11:00:17]  BLUE rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[11:03:33]  RED rolled 6 attack dice ( pool: 3R 3W )
+0 CRITS, 2 HITS, 1 SURGES.
+[11:03:43]  RED re-rolled 1R 1W of 6 attack dice ( pool: 3R 3W )
+1 CRITS, 3 HITS, 1 SURGES.
+[11:03:48]  BLUE rolled 5 defense dice ( pool: 5R )
+2 BLOCKS, 0 SURGES.
+[11:05:02]  BLUE rolled 3 attack dice ( pool: 3R )
+0 CRITS, 2 HITS, 0 SURGES.
+[11:05:09]  RED rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 0 SURGES.
+[11:05:12]  RED rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 1 SURGES.
+[11:05:31]  RED rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 0 SURGES.
+[11:08:31]  BLUE rolled 1 attack dice ( pool: 1R )
+0 CRITS, 1 HITS, 0 SURGES.
+[11:08:35]  RED rolled 1 defense dice ( pool: 1R )
+0 BLOCKS, 1 SURGES.
+[11:08:51]  BLUE rolled 1 attack dice ( pool: 1B )
+0 CRITS, 1 HITS, 0 SURGES.
+[11:09:02]  BLUE rolled 2 defense dice ( pool: 2W )
+1 BLOCKS, 0 SURGES.
+[11:09:18]  BLUE rolled 3 defense dice ( pool: 3W )
+0 BLOCKS, 0 SURGES.
+[11:11:50]  BLUE rolled 3 attack dice ( pool: 3R )
+0 CRITS, 3 HITS, 0 SURGES.
+[11:11:57]  RED rolled 3 defense dice ( pool: 3W )
+0 BLOCKS, 1 SURGES.
+[11:12:03]  RED rolled 3 defense dice ( pool: 3R )
+1 BLOCKS, 0 SURGES.
+[11:12:46]  RED rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 1 SURGES.
+[11:15:14]  BLUE rolled 4 attack dice ( pool: 4R )
+0 CRITS, 3 HITS, 0 SURGES.
+[11:16:06]  BLUE rolled 4 attack dice ( pool: 4B )
+0 CRITS, 1 HITS, 1 SURGES.
+[11:16:12]  RED rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 1 SURGES.
+[11:22:45]  BLUE rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 0 SURGES.
+[11:27:09]  RED rolled 2 attack dice ( pool: 2R )
+0 CRITS, 2 HITS, 0 SURGES.
+[11:27:29]  BLUE rolled 2 defense dice ( pool: 2R )
+2 BLOCKS, 0 SURGES.
+[11:28:27]  RED rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[11:29:05]  BLUE rolled 3 attack dice ( pool: 3B )
+1 CRITS, 0 HITS, 0 SURGES.
+[11:29:08]  BLUE re-rolled 2B of 3 attack dice ( pool: 3B )
+1 CRITS, 1 HITS, 0 SURGES.
+[11:29:13]  RED rolled 2 defense dice ( pool: 2R )
+0 BLOCKS, 0 SURGES.
+[11:33:16]  BLUE rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[11:37:58]  RED rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[11:39:56]  BLUE rolled 1 attack dice ( pool: 1B )
+0 CRITS, 1 HITS, 0 SURGES.
+[11:41:54]  RED rolled 6 attack dice ( pool: 3R 3W )
+1 CRITS, 3 HITS, 0 SURGES.
+[11:41:59]  RED re-rolled 2W of 6 attack dice ( pool: 3R 3W )
+1 CRITS, 3 HITS, 0 SURGES.
+[11:42:04]  BLUE rolled 3 defense dice ( pool: 3R )
+3 BLOCKS, 0 SURGES.
+[11:44:19]  BLUE rolled 4 attack dice ( pool: 4R )
+1 CRITS, 3 HITS, 0 SURGES.
+[11:51:06]  
+[11:51:06]  >/chat_copy
+[11:51:06]  
+[11:51:06]  Output on Game tab, use +mirror_game to see it here too.
+[11:51:51]  
+[11:51:51]  >/chat_copy
+[11:51:51]  
+[11:51:51]  Output on Game tab, use +mirror_game to see it here too.
