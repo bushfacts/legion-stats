@@ -8,115 +8,7 @@ from PyQt6.QtGui import QFont
 
 from Functions import *
 
-offenseIndex = 0
-defenseIndex = 0
-mainIndex = 0
 
-filePath = "chat_log.txt"
-timeStart = "[08:34:04]"
-diceData = ScrapeChatLog(filePath, timeStart)
-
-class MainWindow(QMainWindow):
-
-    def __init__(self):
-        super().__init__()
-        self.setWindowTitle("Dice Parse Helper")
-
-        self.mainLayout = QGridLayout()
-
-        font = "Baskerville"
-        self.titleFont = QFont(font, 15)
-        self.bodyFont = QFont(font, 10)
-
-        self.spacer = QLabel()
-        self.mainLayout.addWidget(self.spacer, 2, 0, 1, 2)
-
-# 0-timestamp
-# 1-attacker/defender
-# 2-surge
-# 3-red
-# 4-black
-# 5-white
-# 6-result
-# 7-buttons
-# 8-submit
-# 9-done
-
-#region Labels
-        self.redO = QLabel("Red")
-        self.mainLayout.addWidget(self.redO, 3, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
-        self.blackO = QLabel("Black")
-        self.mainLayout.addWidget(self.blackO, 4, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
-        self.whiteO = QLabel("White")
-        self.mainLayout.addWidget(self.whiteO, 5, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
-        self.surgeO = QLabel("Surge")
-        self.mainLayout.addWidget(self.surgeO, 2, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
-        self.redD = QLabel("Red")
-        self.mainLayout.addWidget(self.redD, 3, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
-        self.whiteD = QLabel("White")
-        self.mainLayout.addWidget(self.whiteD, 5, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
-        self.surgeD = QLabel("Surge")
-        self.mainLayout.addWidget(self.surgeD, 2, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
-#endregion
-
-#region information
-        self.timeO = QLabel("fill")
-        self.mainLayout.addWidget(self.timeO, 0, 0, 1, 2, Qt.AlignmentFlag.AlignCenter)
-        self.timeD = QLabel("fill")
-        self.mainLayout.addWidget(self.timeD, 0, 2, 1, 2, Qt.AlignmentFlag.AlignCenter)
-
-        self.nameO = QLabel("fill")
-        self.mainLayout.addWidget(self.nameO, 1, 0, 1, 2, Qt.AlignmentFlag.AlignCenter)
-        self.nameD = QLabel("fill")
-        self.mainLayout.addWidget(self.nameD, 1, 2, 1, 2, Qt.AlignmentFlag.AlignCenter)
-#endregion
-
-#region Inputs
-        self.redOInput = QLineEdit()
-        self.mainLayout.addWidget(self.redOInput, 3, 1, 1, 1)
-        self.blackOInput = QLineEdit()
-        self.mainLayout.addWidget(self.blackOInput, 4, 1, 1, 1)
-        self.whiteOInput = QLineEdit()
-        self.mainLayout.addWidget(self.whiteOInput, 5, 1, 1, 1)
-        self.surgeOInput = QCheckBox()
-        self.mainLayout.addWidget(self.surgeOInput, 2, 1, 1, 1)
-        self.redDInput = QLineEdit()
-        self.mainLayout.addWidget(self.redDInput, 3, 3, 1, 1)
-        self.whiteDInput = QLineEdit()
-        self.mainLayout.addWidget(self.whiteDInput, 5, 3, 1, 1)
-        self.surgeDInput = QCheckBox()
-        self.mainLayout.addWidget(self.surgeDInput, 2, 3, 1, 1)
-#endregion
-
-#region Buttons
-        self.prevButtonL = QPushButton()
-        self.prevButtonL.clicked.connect(PrevOffense)
-        self.mainLayout.addWidget(self.prevButtonL, 7, 0, 1, 1)
-        
-        self.nextButtonL = QPushButton()
-        self.nextButtonL.clicked.connect(NextOffense)
-        self.mainLayout.addWidget(self.nextButtonL, 7, 1, 1, 1)
-    
-        self.prevButtonR = QPushButton()
-        self.prevButtonR.clicked.connect(PrevDefense)
-        self.mainLayout.addWidget(self.prevButtonR, 7, 2, 1, 1)
-        
-        self.nextButtonR = QPushButton()
-        self.nextButtonR.clicked.connect(NextDefense)
-        self.mainLayout.addWidget(self.nextButtonR, 7, 3, 1, 1)
-
-        self.submitButton = QPushButton()
-        self.submitButton.clicked.connect(Submit)
-        self.mainLayout.addWidget(self.submitButton, 8, 0, 1, 4)
-
-        self.doneButton = QPushButton()
-        self.doneButton.clicked.connect(Done)
-        self.mainLayout.addWidget(self.doneButton, 9, 0, 1, 4)
-#endregion
-
-        widget = QWidget()
-        widget.setLayout(self.mainLayout)
-        self.setCentralWidget(widget)
 
 def NextOffense():
     offenseIndex = offenseIndex + 1
@@ -141,18 +33,113 @@ def Done():
 
 
 
-
-
-
-
-
-
-
-
-
-
 app = QApplication(sys.argv)
-window = MainWindow()
+widget = QWidget()
+window = QMainWindow()
+window.setCentralWidget(widget)
+window.setWindowTitle("Dice Parse Helper")
 window.setMinimumSize(250,250)
+
+offenseIndex = 0
+defenseIndex = 0
+mainIndex = 0
+
+filePath = "chat_log.txt"
+timeStart = "[08:34:04]"
+diceData = ScrapeChatLog(filePath, timeStart)
+
+mainLayout = QGridLayout()
+widget.setLayout(mainLayout)
+
+font = "Baskerville"
+titleFont = QFont(font, 15)
+bodyFont = QFont(font, 10)
+
+spacer = QLabel()
+mainLayout.addWidget(spacer, 2, 0, 1, 2)
+
+# 0-timestamp
+# 1-attacker/defender
+# 2-surge
+# 3-red
+# 4-black
+# 5-white
+# 6-result
+# 7-buttons
+# 8-submit
+# 9-done
+
+#region Labels
+redO = QLabel("Red")    
+mainLayout.addWidget(redO, 3, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
+blackO = QLabel("Black")
+mainLayout.addWidget(blackO, 4, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
+whiteO = QLabel("White")
+mainLayout.addWidget(whiteO, 5, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
+surgeO = QLabel("Surge")
+mainLayout.addWidget(surgeO, 2, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
+redD = QLabel("Red")
+mainLayout.addWidget(redD, 3, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
+whiteD = QLabel("White")
+mainLayout.addWidget(whiteD, 5, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
+surgeD = QLabel("Surge")
+mainLayout.addWidget(surgeD, 2, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
+#endregion
+
+#region information
+timeO = QLabel("fill")
+mainLayout.addWidget(timeO, 0, 0, 1, 2, Qt.AlignmentFlag.AlignCenter)
+timeD = QLabel("fill")
+mainLayout.addWidget(timeD, 0, 2, 1, 2, Qt.AlignmentFlag.AlignCenter)
+
+nameO = QLabel("fill")
+mainLayout.addWidget(nameO, 1, 0, 1, 2, Qt.AlignmentFlag.AlignCenter)
+nameD = QLabel("fill")
+mainLayout.addWidget(nameD, 1, 2, 1, 2, Qt.AlignmentFlag.AlignCenter)
+#endregion
+
+#region Inputs
+redOInput = QLineEdit()
+mainLayout.addWidget(redOInput, 3, 1, 1, 1)
+blackOInput = QLineEdit()
+mainLayout.addWidget(blackOInput, 4, 1, 1, 1)
+whiteOInput = QLineEdit()
+mainLayout.addWidget(whiteOInput, 5, 1, 1, 1)
+surgeOInput = QCheckBox()
+mainLayout.addWidget(surgeOInput, 2, 1, 1, 1)
+redDInput = QLineEdit()
+mainLayout.addWidget(redDInput, 3, 3, 1, 1)
+whiteDInput = QLineEdit()
+mainLayout.addWidget(whiteDInput, 5, 3, 1, 1)
+surgeDInput = QCheckBox()
+mainLayout.addWidget(surgeDInput, 2, 3, 1, 1)
+#endregion
+
+#region Buttons
+prevButtonL = QPushButton()
+prevButtonL.clicked.connect(PrevOffense)
+mainLayout.addWidget(prevButtonL, 7, 0, 1, 1)
+
+nextButtonL = QPushButton()
+nextButtonL.clicked.connect(NextOffense)
+mainLayout.addWidget(nextButtonL, 7, 1, 1, 1)
+
+prevButtonR = QPushButton()
+prevButtonR.clicked.connect(PrevDefense)
+mainLayout.addWidget(prevButtonR, 7, 2, 1, 1)
+
+nextButtonR = QPushButton()
+nextButtonR.clicked.connect(NextDefense)
+mainLayout.addWidget(nextButtonR, 7, 3, 1, 1)
+
+submitButton = QPushButton()
+submitButton.clicked.connect(Submit)
+mainLayout.addWidget(submitButton, 8, 0, 1, 4)
+
+doneButton = QPushButton()
+doneButton.clicked.connect(Done)
+mainLayout.addWidget(doneButton, 9, 0, 1, 4)
+#endregion
+
 window.show()
 app.exec()
