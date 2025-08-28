@@ -35,7 +35,10 @@ def CalculateAttackProbabilities(data):
         for dRes in range(dResult, dRed + dWhite + 1):
             cumDefenseProb = cumDefenseProb + DefenseSingleProb(dRed, dWhite, dSurge, dRes)
             
-        chartData.append([rd, attacker, max(1-cumOffenseProb,0), red+black+white, defender, max(1-cumDefenseProb,0), dRed+dWhite]) 
+        chartData.append({"Round": rd,
+                          "Attacker": {"Name": attacker, "P": max(1-cumOffenseProb,0), "Dice": red+black+white},
+                          "Defender": {"Name": defender, "P": max(1-cumDefenseProb,0), "Dice": dRed+dWhite}
+                          }) 
 
     return chartData
                 
