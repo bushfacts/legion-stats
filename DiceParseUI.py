@@ -16,6 +16,7 @@ REDPLAYER = "BushFacts"
 ##################################################
 
 # these Get functions are inefficient by choice for robustitudeness
+#region Offense Functions
 def NextOffense():
     global offenseIndex
     offenseIndex = offenseIndex + 1
@@ -61,7 +62,9 @@ def UpdateOffenseResults():
         resultOInput.setText(str(offenseDictResult['Crits'] + offenseDictResult['Hits'] + offenseDictResult['Surges']))
     else:
         resultOInput.setText(str(offenseDictResult['Crits'] + offenseDictResult['Hits']))
+#endregion
 
+#region Defense Functions
 def NextDefense():
     global defenseIndex
     defenseIndex = defenseIndex + 1
@@ -105,8 +108,30 @@ def UpdateDefenseResults():
         resultDInput.setText(str(defenseDictResult['Blocks'] + defenseDictResult['Surges']))
     else:
         resultDInput.setText(str(defenseDictResult['Blocks']))
+#endregion
 
 def Submit():
+    global fullResults
+    global nameO
+    global nameD
+    global surgeOInput
+    thisResult = {
+        "Round": 0,
+        "Offense": {
+            "Time": 0,
+            "Name": nameO.text,
+            "Surge": False,
+            "Pool": {}
+        },
+        "Defense": {
+            "Time": 0,
+            "Name": nameD.text,
+            "Surge": False,
+            "Pool": {}
+        }
+    }
+
+    fullResults.append(thisResult)
     NextOffense()
     NextDefense()
 
@@ -133,6 +158,7 @@ offenseDictResult = {}
 defenseIndex = 0
 defenseDictResult = {}
 mainIndex = 0
+fullResults = []
 
 filePath = "chat_log.txt"
 timeStart = "[08:34:04]"
@@ -148,97 +174,101 @@ bodyFont = QFont(font, 10)
 spacer = QLabel()
 mainLayout.addWidget(spacer, 2, 0, 1, 2)
 
-# 0-timestamp
-# 1-attacker/defender
-# 2-surge
-# 3-red
-# 4-black
-# 5-white
-# 6-result
-# 7-buttons
-# 8-submit
-# 9-done
+# 0-round 
+# 1-timestamp
+# 2-attacker/defender
+# 3-surge
+# 4-red
+# 5-black
+# 6-white
+# 7-result
+# 8-buttons
+# 9-submit
+# 10-done
 
 #region Labels
 redO = QLabel("Red")    
-mainLayout.addWidget(redO, 3, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
+mainLayout.addWidget(redO, 4, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
 blackO = QLabel("Black")
-mainLayout.addWidget(blackO, 4, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
+mainLayout.addWidget(blackO, 5, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
 whiteO = QLabel("White")
-mainLayout.addWidget(whiteO, 5, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
+mainLayout.addWidget(whiteO, 6, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
 resultO = QLabel("Result")
-mainLayout.addWidget(resultO, 6, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
+mainLayout.addWidget(resultO, 7, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
 surgeO = QLabel("Surge")
-mainLayout.addWidget(surgeO, 2, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
+mainLayout.addWidget(surgeO, 3, 0, 1, 1, Qt.AlignmentFlag.AlignRight)
 redD = QLabel("Red")
-mainLayout.addWidget(redD, 3, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
+mainLayout.addWidget(redD, 4, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
 whiteD = QLabel("White")
-mainLayout.addWidget(whiteD, 5, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
+mainLayout.addWidget(whiteD, 6, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
 resultD = QLabel("Result")
-mainLayout.addWidget(resultD, 6, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
+mainLayout.addWidget(resultD, 7, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
 surgeD = QLabel("Surge")
-mainLayout.addWidget(surgeD, 2, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
+mainLayout.addWidget(surgeD, 3, 2, 1, 1, Qt.AlignmentFlag.AlignRight)
+round = QLabel("Round")
+mainLayout.addWidget(round, 0, 0, 1, 2, Qt.AlignmentFlag.AlignRight)
 #endregion
 
 #region information
 timeO = QLabel("fill")
-mainLayout.addWidget(timeO, 0, 0, 1, 2, Qt.AlignmentFlag.AlignCenter)
+mainLayout.addWidget(timeO, 1, 0, 1, 2, Qt.AlignmentFlag.AlignCenter)
 timeD = QLabel("fill")
-mainLayout.addWidget(timeD, 0, 2, 1, 2, Qt.AlignmentFlag.AlignCenter)
-
+mainLayout.addWidget(timeD, 1, 2, 1, 2, Qt.AlignmentFlag.AlignCenter)
 nameO = QLabel("fill")
-mainLayout.addWidget(nameO, 1, 0, 1, 2, Qt.AlignmentFlag.AlignCenter)
+mainLayout.addWidget(nameO, 2, 0, 1, 2, Qt.AlignmentFlag.AlignCenter)
 nameD = QLabel("fill")
-mainLayout.addWidget(nameD, 1, 2, 1, 2, Qt.AlignmentFlag.AlignCenter)
+mainLayout.addWidget(nameD, 2, 2, 1, 2, Qt.AlignmentFlag.AlignCenter)
 #endregion
 
 #region Inputs
 redOInput = QLineEdit()
-mainLayout.addWidget(redOInput, 3, 1, 1, 1)
+mainLayout.addWidget(redOInput, 4, 1, 1, 1)
 blackOInput = QLineEdit()
-mainLayout.addWidget(blackOInput, 4, 1, 1, 1)
+mainLayout.addWidget(blackOInput, 5, 1, 1, 1)
 whiteOInput = QLineEdit()
-mainLayout.addWidget(whiteOInput, 5, 1, 1, 1)
+mainLayout.addWidget(whiteOInput, 6, 1, 1, 1)
 resultOInput = QLineEdit()
-mainLayout.addWidget(resultOInput, 6, 1, 1, 1)
+mainLayout.addWidget(resultOInput, 7, 1, 1, 1)
 surgeOInput = QCheckBox()
 surgeOInput.stateChanged.connect(UpdateOffenseResults)
-mainLayout.addWidget(surgeOInput, 2, 1, 1, 1)
+mainLayout.addWidget(surgeOInput, 3, 1, 1, 1)
 redDInput = QLineEdit()
-mainLayout.addWidget(redDInput, 3, 3, 1, 1)
+mainLayout.addWidget(redDInput, 4, 3, 1, 1)
 whiteDInput = QLineEdit()
-mainLayout.addWidget(whiteDInput, 5, 3, 1, 1)
+mainLayout.addWidget(whiteDInput, 3, 3, 1, 1)
 resultDInput = QLineEdit()
-mainLayout.addWidget(resultDInput, 6, 3, 1, 1)
+mainLayout.addWidget(resultDInput, 7, 3, 1, 1)
 surgeDInput = QCheckBox()
 surgeDInput.stateChanged.connect(UpdateDefenseResults)
-mainLayout.addWidget(surgeDInput, 2, 3, 1, 1)
+mainLayout.addWidget(surgeDInput, 3, 3, 1, 1)
+roundInput = QLineEdit()
+mainLayout.addWidget(roundInput, 0, 2, 1, 1)
 #endregion
 
 #region Buttons
 prevButtonL = QPushButton("Prev")
 prevButtonL.clicked.connect(PrevOffense)
-mainLayout.addWidget(prevButtonL, 7, 0, 1, 1)
+mainLayout.addWidget(prevButtonL, 8, 0, 1, 1)
 
 nextButtonL = QPushButton("Next")
 nextButtonL.clicked.connect(NextOffense)
-mainLayout.addWidget(nextButtonL, 7, 1, 1, 1)
+mainLayout.addWidget(nextButtonL, 8, 1, 1, 1)
 
 prevButtonR = QPushButton("Prev")
 prevButtonR.clicked.connect(PrevDefense)
-mainLayout.addWidget(prevButtonR, 7, 2, 1, 1)
+mainLayout.addWidget(prevButtonR, 8, 2, 1, 1)
 
 nextButtonR = QPushButton("Next")
 nextButtonR.clicked.connect(NextDefense)
-mainLayout.addWidget(nextButtonR, 7, 3, 1, 1)
+mainLayout.addWidget(nextButtonR, 8, 3, 1, 1)
 
 submitButton = QPushButton("Submit")
 submitButton.clicked.connect(Submit)
-mainLayout.addWidget(submitButton, 8, 0, 1, 4)
+mainLayout.addWidget(submitButton, 9, 0, 1, 4)
 
 doneButton = QPushButton("Done")
 doneButton.clicked.connect(Done)
-mainLayout.addWidget(doneButton, 9, 0, 1, 4)
+mainLayout.addWidget(doneButton, 10, 0, 1, 4)
 #endregion
 
 window.show()
