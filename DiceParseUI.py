@@ -5,8 +5,14 @@ from numpy import arange
 from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QCheckBox, QLabel, QLineEdit, QPushButton
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
+import pathlib
+import json
 
 from Functions import *
+
+currentPath = pathlib.Path(__file__).parent.resolve()
+dataPath = currentPath.joinpath("Data\\Baer v BushFacts\\")
+timeStart = "[08:34:04]"
 
 BLUEPLAYER = "Brian Baer"
 REDPLAYER = "BushFacts"
@@ -31,6 +37,7 @@ def PrevOffense():
 
 def GetOffense():
     global offenseIndex
+    global diceData
     count = 0
     for i in range(0,len(diceData)):
         if diceData[i]["Offense"]:
@@ -79,6 +86,7 @@ def PrevDefense():
 
 def GetDefense():
     global defenseIndex
+    global diceData
     count = 0
     for i in range(0,len(diceData)):
         if not diceData[i]["Offense"]:
@@ -110,30 +118,82 @@ def UpdateDefenseResults():
         resultDInput.setText(str(defenseDictResult['Blocks']))
 #endregion
 
+def NextSyncd():
+    global offenseIndex
+    global defenseIndex
+    global diceData
+
+    offenseIndex = offenseIndex + 1
+    count = 0
+    offenseDieRoll = {}
+    defenseDieRoll = {}
+    offenseFound = False
+    for i in range(0,len(diceData)):
+        if diceData[i]["Offense"]:
+            if count == offenseIndex:
+                offenseDieRoll = diceData[i]
+                offenseFound = True
+            else:
+                count = count + 1
+        elif offenseFound:
+            defenseDieRoll = diceData[i]
+            break
+
+    UpdateOffense(offenseDieRoll)
+    UpdateDefense(defenseDieRoll)
+
+def Rally():
+    pass
+
+def Cover():
+    pass
+
 def Submit():
-    global fullResults
+    global roundInput
+    global timeO
+    global timeD
     global nameO
     global nameD
     global surgeOInput
+    global surgeDInput
+    global redOInput
+    global blackOInput
+    global whiteOInput
+    global redDInput
+    global whiteDInput
+    global resultOInput
+    global resultDInput
     thisResult = {
-        "Round": 0,
+        "Round": int(roundInput.text()),
         "Offense": {
-            "Time": 0,
-            "Name": nameO.text,
-            "Surge": False,
-            "Pool": {}
+            "Time": timeO.text(),
+            "Name": nameO.text(),
+            "Surge": surgeOInput.isChecked(),
+            "Pool": {"Red": int(redOInput.text()), "Black": int(blackOInput.text()), "White": int(whiteOInput.text())},
+            "Result": int(resultOInput.text()),
+            "Probability": 0
         },
         "Defense": {
-            "Time": 0,
-            "Name": nameD.text,
-            "Surge": False,
-            "Pool": {}
+            "Time": timeD.text(),
+            "Name": nameD.text(),
+            "Surge": surgeDInput.isChecked(),
+            "Pool": {"Red": int(redDInput.text()), "White": int(whiteDInput.text())},
+            "Result": int(resultDInput.text()),
+            "Probability": 0
         }
     }
+    print(thisResult)
+    allResults = []
+    with open(dataPath.joinpath("dice_rolls.json"), "r") as file:
+        allResults = json.load(file)
+        # allResults.append(thisResult)
+        # json.dump(allResults, file, indent=3)
+    with open(dataPath.joinpath("dice_rolls.json"), "w") as file:
+        # allResults = json.load(file)
+        allResults.append(thisResult)
+        json.dump(allResults, file, indent=3)
 
-    fullResults.append(thisResult)
-    NextOffense()
-    NextDefense()
+    NextSyncd()
 
 def Done():
     global offenseIndex
@@ -160,9 +220,7 @@ defenseDictResult = {}
 mainIndex = 0
 fullResults = []
 
-filePath = "chat_log.txt"
-timeStart = "[08:34:04]"
-diceData = ScrapeChatLog(filePath, timeStart)
+diceData = ScrapeChatLog(dataPath.joinpath("chat_log.txt"), timeStart)
 
 mainLayout = QGridLayout()
 widget.setLayout(mainLayout)
@@ -235,7 +293,7 @@ mainLayout.addWidget(surgeOInput, 3, 1, 1, 1)
 redDInput = QLineEdit()
 mainLayout.addWidget(redDInput, 4, 3, 1, 1)
 whiteDInput = QLineEdit()
-mainLayout.addWidget(whiteDInput, 3, 3, 1, 1)
+mainLayout.addWidget(whiteDInput, 6, 3, 1, 1)
 resultDInput = QLineEdit()
 mainLayout.addWidget(resultDInput, 7, 3, 1, 1)
 surgeDInput = QCheckBox()
@@ -250,9 +308,13 @@ prevButtonL = QPushButton("Prev")
 prevButtonL.clicked.connect(PrevOffense)
 mainLayout.addWidget(prevButtonL, 8, 0, 1, 1)
 
+nextButtonSyncd = QPushButton("Next (sync'd)")
+nextButtonSyncd.clicked.connect(NextSyncd)
+mainLayout.addWidget(nextButtonSyncd, 8, 1, 1, 1)
+
 nextButtonL = QPushButton("Next")
 nextButtonL.clicked.connect(NextOffense)
-mainLayout.addWidget(nextButtonL, 8, 1, 1, 1)
+mainLayout.addWidget(nextButtonL, 9, 1, 1, 1)
 
 prevButtonR = QPushButton("Prev")
 prevButtonR.clicked.connect(PrevDefense)
@@ -262,14 +324,25 @@ nextButtonR = QPushButton("Next")
 nextButtonR.clicked.connect(NextDefense)
 mainLayout.addWidget(nextButtonR, 8, 3, 1, 1)
 
+rallyButton = QPushButton("Submit as Rally")
+rallyButton.clicked.connect(Rally)
+mainLayout.addWidget(rallyButton, 9, 2, 1, 1)
+
+coverButton = QPushButton("Submit as Cover")
+coverButton.clicked.connect(Cover)
+mainLayout.addWidget(coverButton, 9, 3, 1, 1)
+
 submitButton = QPushButton("Submit")
 submitButton.clicked.connect(Submit)
-mainLayout.addWidget(submitButton, 9, 0, 1, 4)
+mainLayout.addWidget(submitButton, 10, 0, 1, 4)
 
 doneButton = QPushButton("Done")
 doneButton.clicked.connect(Done)
-mainLayout.addWidget(doneButton, 10, 0, 1, 4)
+mainLayout.addWidget(doneButton, 11, 0, 1, 4)
 #endregion
+
+for i in range(0,mainLayout.columnCount()):
+    mainLayout.setColumnStretch(i, 1)
 
 window.show()
 app.exec()
