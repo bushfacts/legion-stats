@@ -5,27 +5,31 @@
 
 import pandas as pd
 import math
-
+import pathlib
+import json
 
 def GetData():
-    df = pd.read_csv("test data.csv")
-    return df
+    currentPath = pathlib.Path(__file__).parent.resolve()
+    dataPath = currentPath.joinpath("Data\\Baer v BushFacts\\")
+    with open(dataPath.joinpath("dice_rolls.json"),"r") as file:
+        diceData = json.load(file) 
+        return diceData
 
-def CalculateAttackProbabilities(data):
+def CalculateAttackProbabilities(diceData):
     chartData = []
-    for d in data.iterrows():
-        rd = d[1]["Round"]
-        attacker = d[1]["Attacker"]
-        red = int(d[1]["Red"])
-        black = int(d[1]["Black"])
-        white = int(d[1]["White"])
-        surge = d[1]["Surge"]
-        result = int(d[1]["Result"])
-        defender = d[1]["Defender"]
-        dRed = int(d[1]["dRed"])
-        dWhite = int(d[1]["dWhite"])
-        dSurge = d[1]["dSurge"]
-        dResult = int(d[1]["dResult"])
+    for data in diceData:
+        rd = data["Round"]
+        attacker = data["Offense"]["Name"]
+        red = data["Offense"]["Pool"]["Red"]
+        black = data["Offense"]["Pool"]["Black"]
+        white = data["Offense"]["Pool"]["White"]
+        surge = data["Offense"]["Surge"]
+        result = data["Offense"]["Result"]
+        defender = data["Defense"]["Name"]
+        dRed = data["Defense"]["Pool"]["Red"]
+        dWhite = data["Defense"]["Pool"]["White"]
+        dSurge = data["Defense"]["Surge"]
+        dResult = data["Defense"]["Result"]
 
         cumOffenseProb = 0
         for res in range(result, red + black + white + 1):
