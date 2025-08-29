@@ -8,9 +8,7 @@ import math
 import pathlib
 import json
 
-def GetData():
-    currentPath = pathlib.Path(__file__).parent.resolve()
-    dataPath = currentPath.joinpath("Data\\Baer v BushFacts\\")
+def GetData(dataPath):
     with open(dataPath.joinpath("dice_rolls.json"),"r") as file:
         diceData = json.load(file) 
         return diceData
@@ -74,6 +72,3 @@ def DefenseSingleProb(red, white, surge, result):
         prob = prob + p
     return prob
 
-data = GetData()
-luckData = CalculateAttackProbabilities(data)
-print(luckData)
