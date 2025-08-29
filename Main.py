@@ -1,7 +1,13 @@
 from Functions import *
+from ComplexBinomial import *
+import pathlib
 
-
-filePath = "chat_log.txt"
+currentPath = pathlib.Path(__file__).parent.resolve()
+dataPath = currentPath.joinpath("Data\\Baer v BushFacts\\")
 timeStart = "[08:34:04]"
 
-ScrapeChatLog(filePath, timeStart)
+ScrapeChatLog(dataPath.joinPath("chat_log.txt"), timeStart)
+
+data = GetData(dataPath)
+luckData = CalculateAttackProbabilities(data)
+print(luckData)
