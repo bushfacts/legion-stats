@@ -3,6 +3,8 @@
 # totals to include: dice thrown, wounds delivered, blocks made, tokens gained (contrasted to total action breakdown)
 # all actions taken: move, attack, aim, dodge, standby, guidance, force powers, etc 
 
+# need handling for when no defense rolled
+
 import pandas as pd
 import math
 import pathlib
@@ -13,36 +15,35 @@ def GetData(dataPath):
         diceData = json.load(file) 
         return diceData
 
-def CalculateAttackProbabilities(diceData):
-    chartData = []
-    for data in diceData:
-        rd = data["Round"]
-        attacker = data["Offense"]["Name"]
+def CalculateDiceProbability(data):
+    thisResult = {}
+
+    if "Offense" in data:
         red = data["Offense"]["Pool"]["Red"]
         black = data["Offense"]["Pool"]["Black"]
         white = data["Offense"]["Pool"]["White"]
         surge = data["Offense"]["Surge"]
         result = data["Offense"]["Result"]
-        defender = data["Defense"]["Name"]
-        dRed = data["Defense"]["Pool"]["Red"]
-        dWhite = data["Defense"]["Pool"]["White"]
-        dSurge = data["Defense"]["Surge"]
-        dResult = data["Defense"]["Result"]
 
         cumOffenseProb = 0
         for res in range(result, red + black + white + 1):
             cumOffenseProb = cumOffenseProb + OffenseSingleProb(red, black, white, surge, res)
 
+        thisResult["Offense"] = max(1-cumOffenseProb,0)
+
+    if "Defense" in data:
+        dRed = data["Defense"]["Pool"]["Red"]
+        dWhite = data["Defense"]["Pool"]["White"]
+        dSurge = data["Defense"]["Surge"]
+        dResult = data["Defense"]["Result"]
+
         cumDefenseProb = 0
         for dRes in range(dResult, dRed + dWhite + 1):
             cumDefenseProb = cumDefenseProb + DefenseSingleProb(dRed, dWhite, dSurge, dRes)
-            
-        chartData.append({"Round": rd,
-                          "Attacker": {"Name": attacker, "P": max(1-cumOffenseProb,0), "Dice": red+black+white},
-                          "Defender": {"Name": defender, "P": max(1-cumDefenseProb,0), "Dice": dRed+dWhite}
-                          }) 
+        
+        thisResult["Defense"] = max(1-cumDefenseProb,0)
 
-    return chartData
+    return thisResult
                 
 def OffenseSingleProb(red, black, white, surge, result):
     prob = 0
