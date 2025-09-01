@@ -1,0 +1,3076 @@
+[
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [
+         "Scout"
+      ],
+      "Free Tokens": [],
+      "Unit": "Scout Troopers_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Dodge"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Dewback Rider_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Dodge"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_1",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Dodge"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Stormtrooper Riot Squad_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_2",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Dodge"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Dewback Rider_2",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Climb"
+      ],
+      "Free Actions": [
+         "Scout"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim",
+         "Surge",
+         "Surge"
+      ],
+      "Unit": "Rex",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim"
+      ],
+      "Unit": "Imperial Agent",
+      "Player": "Blue",
+      "Target": [
+         "Rex"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:39:17",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.234375
+            }
+         }
+      ]
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Commandos_1",
+      "Player": "Red",
+      "Target": [
+         "Imperial Agent"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [
+         "Infiltrate"
+      ],
+      "Attacks": [
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:40:00",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 4,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.26171875
+            },
+            "Defense": {
+               "Time": "08:40:06",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 2
+               },
+               "Result": 2,
+               "Probability": 0.8888888888888888
+            }
+         }
+      ]
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Stormtrooper Riot Squad_2",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Attack",
+         "Recover"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Commandos_2",
+      "Player": "Red",
+      "Target": [
+         "Stormtrooper Riot Squad_2"
+      ],
+      "Wounds": [
+         "2"
+      ],
+      "Notes": [
+         "Infiltrate"
+      ],
+      "Attacks": [
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:40:17",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 4,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.68359375
+            },
+            "Defense": {
+               "Time": "08:40:36",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.5
+            }
+         }
+      ]
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [],
+      "Unit": "Snowtrooper",
+      "Player": "Blue",
+      "Target": [
+         "Rex",
+         "Commandos_1"
+      ],
+      "Wounds": [
+         "0",
+         "0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:43:13",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 2,
+                  "White": 1
+               },
+               "Result": 0,
+               "Probability": 0.0
+            }
+         },
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:43:27",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 0,
+                  "White": 4
+               },
+               "Result": 1,
+               "Probability": 0.152587890625
+            },
+            "Defense": {
+               "Time": "08:43:36",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.33333333333333337
+            }
+         }
+      ]
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Restore"
+      ],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_3",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge",
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Attack",
+         "Recover"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Commandos_3",
+      "Player": "Red",
+      "Target": [
+         "Black Sun Enforcers_1"
+      ],
+      "Wounds": [
+         "3"
+      ],
+      "Notes": [
+         "2 on stims",
+         "Infiltrate"
+      ],
+      "Attacks": [
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:48:46",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 4,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.078857421875
+            },
+            "Defense": {
+               "Time": "08:49:11",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.0370370370370372
+            }
+         }
+      ]
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [
+         "Scout"
+      ],
+      "Free Tokens": [],
+      "Unit": "Scout Trooper_2",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Scout",
+         "Jedi Mind Trick"
+      ],
+      "Free Tokens": [],
+      "Unit": "Yoda",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge",
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_2",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Scout",
+         "Attack"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim",
+         "Aim",
+         "Surge",
+         "Surge",
+         "Surge"
+      ],
+      "Unit": "Bad Batch",
+      "Player": "Red",
+      "Target": [
+         "Scout Trooper_1",
+         "Black Sun Enforcers_2"
+      ],
+      "Wounds": [
+         "3",
+         "1"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:57:02",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 4,
+                  "White": 4
+               },
+               "Result": 6,
+               "Probability": 0.669727087020874
+            },
+            "Defense": {
+               "Time": "08:58:10",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 6
+               },
+               "Result": 3,
+               "Probability": 0.6803840877914953
+            }
+         },
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:58:31",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.125
+            }
+         }
+      ]
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [],
+      "Unit": "Vader",
+      "Player": "Blue",
+      "Target": [
+         "Commandos_1"
+      ],
+      "Wounds": [
+         "0"
+      ],
+      "Notes": [
+         "Infiltrate"
+      ],
+      "Attacks": [
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "09:04:36",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.15625
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge",
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_1",
+      "Player": "Blue",
+      "Target": [
+         "Rex"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [
+         "stims applied"
+      ],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:14:22",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 4,
+                  "White": 4
+               },
+               "Result": 5,
+               "Probability": 0.1920799594372511
+            },
+            "Defense": {
+               "Time": "09:15:10",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.5555555555555556
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Dodge",
+         "Dodge"
+      ],
+      "Unit": "Rex",
+      "Player": "Red",
+      "Target": [
+         "Vader",
+         "Black Sun Enforcers_1"
+      ],
+      "Wounds": [
+         "0",
+         "1"
+      ],
+      "Notes": [
+         "Vader deflected"
+      ],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:15:56",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.330078125
+            },
+            "Defense": {
+               "Time": "09:16:27",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.7037037037037037
+            }
+         },
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:16:36",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.330078125
+            },
+            "Defense": {
+               "Time": "09:16:42",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 3
+               },
+               "Result": 2,
+               "Probability": 0.7407407407407407
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Aim",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [],
+      "Unit": "Snowtrooper",
+      "Player": "Blue",
+      "Target": [
+         "Rex",
+         "Commandos_1"
+      ],
+      "Wounds": [
+         "1",
+         "0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:19:13",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 2,
+                  "White": 1
+               },
+               "Result": 3,
+               "Probability": 0.853515625
+            },
+            "Defense": {
+               "Time": "09:19:27",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.5
+            }
+         },
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:19:43",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 0,
+                  "White": 4
+               },
+               "Result": 1,
+               "Probability": 0.152587890625
+            },
+            "Defense": {
+               "Time": "09:19:58",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.33333333333333337
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Commandos_1",
+      "Player": "Red",
+      "Target": [
+         "Vader"
+      ],
+      "Wounds": [
+         "0"
+      ],
+      "Notes": [
+         "Vader deflected"
+      ],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:21:12",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 4,
+                  "White": 4
+               },
+               "Result": 2,
+               "Probability": 0.030376017093658447
+            },
+            "Defense": {
+               "Time": "09:21:52",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.7037037037037037
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack",
+         "Force Push"
+      ],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Vader",
+      "Player": "Blue",
+      "Target": [
+         "Commandos_3"
+      ],
+      "Wounds": [
+         "2"
+      ],
+      "Notes": [
+         "12 MOE suppression delivered",
+         "Burst"
+      ],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:25:53",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 6,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.03759765625
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_1",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Climb"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim"
+      ],
+      "Unit": "Imperial Agent",
+      "Player": "Blue",
+      "Target": [
+         "Clone Trooper Infantry_3"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:31:45",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.015625
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Stormtrooper Riot Squad_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [
+         "Restore"
+      ],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_2",
+      "Player": "Red",
+      "Target": [
+         "Vader"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:36:06",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 4,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.847412109375
+            },
+            "Defense": {
+               "Time": "09:36:11",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 4,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.6875
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Scout Troopers_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Commandos_2",
+      "Player": "Red",
+      "Target": [
+         "Vader"
+      ],
+      "Wounds": [
+         "2"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:38:14",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 6,
+                  "White": 0
+               },
+               "Result": 5,
+               "Probability": 0.7258186340332031
+            },
+            "Defense": {
+               "Time": "09:38:56",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 6,
+                  "White": 0
+               },
+               "Result": 5,
+               "Probability": 0.890625
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Scout Troopers_2",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Commandos_3",
+      "Player": "Red",
+      "Target": [
+         "Black Sun Enforcers_1"
+      ],
+      "Wounds": [
+         "0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:40:49",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.04296875
+            },
+            "Defense": {
+               "Time": "09:41:14",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.5
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Stormtrooper Riot Squad_2",
+      "Player": "Blue",
+      "Target": [
+         "Rex"
+      ],
+      "Wounds": [
+         "0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:43:24",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 0,
+                  "White": 4
+               },
+               "Result": 1,
+               "Probability": 0.31640625
+            },
+            "Defense": {
+               "Time": "09:43:29",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.5
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Jedi Mind Trick",
+         "Force Push"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim",
+         "Dodge",
+         "Dodge",
+         "Surge",
+         "Surge"
+      ],
+      "Unit": "Yoda",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [
+         "Burst"
+      ],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge",
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_2",
+      "Player": "Blue",
+      "Target": ["Bad Batch"],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:55:00",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 4,
+                  "White": 4
+               },
+               "Result": 3,
+               "Probability": 0.01107165589928627
+            },
+            "Defense": {
+               "Time": "09:55:43",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.5555555555555556
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Climb"
+      ],
+      "Free Actions": [
+         "Restore"
+      ],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_3",
+      "Player": "Red",
+      "Target": [
+         "Black Sun Enforcers_1"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Dewback Rider_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack",
+         "Knife Throw"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim",
+         "Surge",
+         "Surge",
+         "Surge"
+      ],
+      "Unit": "Bad Batch",
+      "Player": "Red",
+      "Target": [
+         "Black Sun Enforcers_2"
+      ],
+      "Wounds": [
+         "3"
+      ],
+      "Notes": [
+         "2 on stims",
+         "standby trips and BSE deals 0 to Bad Batch",
+         "Scout Standby trips and moves out of LOS",
+         "Hunter knife on BSE"
+      ],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:57:43",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 4,
+                  "White": 4
+               },
+               "Result": 6,
+               "Probability": 0.42809573002159595
+            },
+            "Defense": {
+               "Time": "09:59:23",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 6,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.65625
+            }
+         },
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:59:45",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.5
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [],
+      "Unit": "Dewback Rider_2",
+      "Player": "Blue",
+      "Target": [
+         "Bad Batch"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [
+         "Spur"
+      ],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "10:02:09",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 5,
+                  "White": 5
+               },
+               "Result": 1,
+               "Probability": 0.000707223080098629
+            },
+            "Defense": {
+               "Time": "10:02:17",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 4,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.6875
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Attack",
+         "Dodge"
+      ],
+      "Free Actions": [
+         "Force Push"
+      ],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Vader",
+      "Player": "Blue",
+      "Target": [
+         "Commandos_3"
+      ],
+      "Wounds": [
+         "3"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:12:52",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 6,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.16943359375
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Dodge",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_3",
+      "Player": "Red",
+      "Target": [
+         "Vader"
+      ],
+      "Wounds": [
+         "2"
+      ],
+      "Notes": [
+         "with Rex"
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:14:04",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 4,
+                  "White": 0
+               },
+               "Result": 5,
+               "Probability": 0.27643537521362305
+            },
+            "Defense": {
+               "Time": "10:14:39",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.125
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Dodge",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Dewback Rider_2",
+      "Player": "Blue",
+      "Target": [
+         "Bad Batch"
+      ],
+      "Wounds": [
+         "3"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:16:32",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 5,
+                  "White": 5
+               },
+               "Result": 6,
+               "Probability": 0.6275636833161116
+            },
+            "Defense": {
+               "Time": "10:16:42",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 6,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.10013717421124857
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_2",
+      "Player": "Red",
+      "Target": [
+         "Vader"
+      ],
+      "Wounds": [
+         "0"
+      ],
+      "Notes": [
+         "with Rex"
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:18:38",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 5,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.17529296875
+            },
+            "Defense": {
+               "Time": "10:18:47",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 4,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.9375
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [],
+      "Unit": "Stormtrooper Riot Squad_1",
+      "Player": "Blue",
+      "Target": [
+         "Bad Batch"
+      ],
+      "Wounds": [
+         "0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:20:49",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 4,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.1953125
+            },
+            "Defense": {
+               "Time": "10:20:54",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.7037037037037037
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Recover",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Commandos_1",
+      "Player": "Red",
+      "Target": [
+         "Black Sun Enforcers_1"
+      ],
+      "Wounds": [
+         "0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:23:02",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.330078125
+            },
+            "Defense": {
+               "Time": "10:23:13",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.33333333333333337
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Snowtrooper",
+      "Player": "Blue",
+      "Target": [
+         "Yoda"
+      ],
+      "Wounds": [
+         "0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:24:03",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 0,
+                  "White": 5
+               },
+               "Result": 4,
+               "Probability": 0.9307861328125
+            },
+            "Defense": {
+               "Time": "10:24:16",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 4,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.8024691358024691
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Attack",
+         "Attack"
+      ],
+      "Free Actions": [
+         "Jedi Mind Trick",
+         "Force Push"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Dodge",
+         "Dodge"
+      ],
+      "Unit": "Yoda",
+      "Player": "Red",
+      "Target": [
+         "Snowtrooper",
+         "Stormtrooper Riot Squad_2"
+      ],
+      "Wounds": [
+         "5",
+         "3"
+      ],
+      "Notes": [
+         "killed",
+         ""
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:25:13",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 7,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 5,
+               "Probability": 0.0463099479675293
+            },
+            "Defense": {
+               "Time": "10:25:25",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 7,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.5
+            }
+         },
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:26:40",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 4,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.413818359375
+            },
+            "Defense": {
+               "Time": "10:26:47",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 4,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.40740740740740755
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Dewback Rider_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Recover"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Commandos_2",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Attack"
+      ],
+      "Free Actions": [
+         "Force Push"
+      ],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Vader",
+      "Player": "Blue",
+      "Target": [
+         "Clone Trooper Infant_3"
+      ],
+      "Wounds": [
+         "4"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:30:10",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 6,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 5,
+               "Probability": 0.466064453125
+            },
+            "Defense": {
+               "Time": "10:30:23",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 4,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.0625
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Climb"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Rex",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge",
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Stormtrooper Riot Squad_2",
+      "Player": "Blue",
+      "Target": [
+         "Yoda"
+      ],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:36:00",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 1,
+                  "White": 1
+               },
+               "Result": 3,
+               "Probability": 0.296875
+            },
+            "Defense": {
+               "Time": "10:36:12",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 4,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.012345679012345845
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Dodge",
+         "Attack"
+      ],
+      "Free Actions": [
+         "Knife Throw"
+      ],
+      "Free Tokens": [
+         "Surge",
+         "Surge",
+         "Surge"
+      ],
+      "Unit": "Bad Batch",
+      "Player": "Red",
+      "Target": [
+         "Stormtrooper Riot Squad_1"
+      ],
+      "Wounds": [
+         "3"
+      ],
+      "Notes": [
+         "Hunter knife on BSE"
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:36:52",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.5
+            }
+         },
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:39:32",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 1,
+                  "White": 1
+               },
+               "Result": 3,
+               "Probability": 0.362548828125
+            },
+            "Defense": {
+               "Time": "10:39:47",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.7037037037037037
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge",
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_2",
+      "Player": "Blue",
+      "Target": [
+         "Commandos_2"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [
+         "stims applied"
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:39:32",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 1,
+                  "White": 1
+               },
+               "Result": 3,
+               "Probability": 0.362548828125
+            },
+            "Defense": {
+               "Time": "10:39:47",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.7037037037037037
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_1",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim"
+      ],
+      "Unit": "Imperial Agent",
+      "Player": "Blue",
+      "Target": [
+         "Clone Trooper Infantry_2"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:43:33",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 0,
+               "Probability": 0.0
+            },
+            "Defense": {
+               "Time": "10:43:49",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.11111111111111116
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Scout Troopers_2",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Climb",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Scout Troopers_1",
+      "Player": "Blue",
+      "Target": [
+         "Clone Trooper Infantry_1"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:46:55",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 2,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.25
+            },
+            "Defense": {
+               "Time": "10:47:02",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "White": 0
+               },
+               "Result": 0,
+               "Probability": 0.0
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Aim",
+         "Move"
+      ],
+      "Free Actions": [
+         "Force Push",
+         "Vader's Might",
+         "Attack"
+      ],
+      "Free Tokens": [],
+      "Unit": "Vader",
+      "Player": "Blue",
+      "Target": [
+         "Clone Trooper Infantry_2"
+      ],
+      "Wounds": [
+         "4"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "10:52:54",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 6,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.16943359375
+            },
+            "Defense": {
+               "Time": "10:53:07",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 4,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.11111111111111127
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Dodge"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Stormtrooper Riot Squad_2",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Recover",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Commandos_1",
+      "Player": "Red",
+      "Target": [
+         "Imperial Agent"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "10:58:10",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.15625
+            },
+            "Defense": {
+               "Time": "10:58:31",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 1
+               },
+               "Result": 0,
+               "Probability": 0.0
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Stormtrooper Riot Squad_1",
+      "Player": "Blue",
+      "Target": [
+         "Bad Batch"
+      ],
+      "Wounds": [
+         "2"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "10:59:03",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 1,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.09765625
+            },
+            "Defense": {
+               "Time": "10:59:11",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.0370370370370372
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_1",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Dewback Rider_2",
+      "Player": "Blue",
+      "Target": [
+         "Bad Batch"
+      ],
+      "Wounds": [
+         "3"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:03:33",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 3
+               },
+               "Result": 3,
+               "Probability": 0.09998321533203125
+            },
+            "Defense": {
+               "Time": "11:03:48",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 5,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.045267489711934394
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Recover",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Commandos_2",
+      "Player": "Red",
+      "Target": [
+         "Imperial Agent"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:05:02",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.15625
+            },
+            "Defense": {
+               "Time": "11:05:12",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 2
+               },
+               "Result": 1,
+               "Probability": 0.4444444444444444
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Recover"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Imperial Agent",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Dodge",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Scout Troopers_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Dodge",
+         "Attack"
+      ],
+      "Free Actions": [
+         "Knife Throw"
+      ],
+      "Free Tokens": [],
+      "Unit": "Bad Batch",
+      "Player": "Red",
+      "Target": [
+         "Stormtrooper Riot Squad_1"
+      ],
+      "Wounds": [
+         "0"
+      ],
+      "Notes": [
+         "Hunter knife kills Scout"
+      ],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:08:31",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.25
+            },
+            "Defense": {
+               "Time": "11:08:35",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.33333333333333337
+            }
+         },
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:08:51",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.5
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Dodge",
+         "Dodge"
+      ],
+      "Unit": "Rex",
+      "Player": "Red",
+      "Target": [
+         "Vader"
+      ],
+      "Wounds": [
+         "2"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:11:50",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.330078125
+            },
+            "Defense": {
+               "Time": "11:12:03",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.125
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Black Sun Enforcers_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Attack",
+         "Attack"
+      ],
+      "Free Actions": [
+         "Jedi Mind Trick",
+         "Force Push"
+      ],
+      "Free Tokens": [
+         "Dodge",
+         "Dodge",
+         "Dodge"
+      ],
+      "Unit": "Yoda",
+      "Player": "Red",
+      "Target": [
+         "Stormtrooper Riot Squad_2",
+         "Imperial Agent"
+      ],
+      "Wounds": [
+         "1",
+         "1"
+      ],
+      "Notes": [
+         "killed",
+         ""
+      ],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:15:14",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 4,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.078857421875
+            }
+         },
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:16:06",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 4,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.151611328125
+            },
+            "Defense": {
+               "Time": "11:16:12",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 2
+               },
+               "Result": 1,
+               "Probability": 0.4444444444444444
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Dewback Rider_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Recover"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Rex",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Climb",
+         "Move"
+      ],
+      "Free Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Tokens": [],
+      "Unit": "Imperial Agent",
+      "Player": "Blue",
+      "Target": [
+         "Commandos_2"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 5,
+            "Offense": {
+               "Time": "11:27:09",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.234375
+            },
+            "Defense": {
+               "Time": "11:27:29",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.5555555555555556
+            }
+         }
+      ]
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge"
+      ],
+      "Unit": "Clone Trooper Infantry_1",
+      "Player": "Red",
+      "Target": [
+         "Stormtrooper Riot Squad_1"
+      ],
+      "Wounds": [
+         "2"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 5,
+            "Offense": {
+               "Time": "11:29:05",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 3,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.052734375
+            },
+            "Defense": {
+               "Time": "11:29:13",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "White": 0
+               },
+               "Result": 0,
+               "Probability": 0.0
+            }
+         }
+      ]
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Withdraw",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Stormtrooper Riot Squad_2",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Move",
+         "Recover"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Commandos_1",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Scout Troopers_2",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Dodge",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Commandos_2",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Withdraw",
+         "Dodge"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Surge",
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Dodge",
+         "Standby"
+      ],
+      "Free Actions": [
+         "Knife Throw"
+      ],
+      "Free Tokens": [],
+      "Unit": "Bad Batch",
+      "Player": "Red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [
+         "Hunter knife kills Riot"
+      ],
+      "Attacks": [
+        {
+            "Round": 5,
+            "Offense": {
+               "Time": "11:39:56",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.5
+            }
+         }
+        ]
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Dewback Rider_2",
+      "Player": "Blue",
+      "Target": [
+         "Bad Batch"
+      ],
+      "Wounds": [
+         "0"
+      ],
+      "Notes": [],
+      "Attacks": [
+        {
+            "Round": 5,
+            "Offense": {
+               "Time": "11:41:54",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 3
+               },
+               "Result": 4,
+               "Probability": 0.68798828125
+            },
+            "Defense": {
+               "Time": "11:42:04",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.7037037037037037
+            }
+         }
+      ]
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack",
+         "Force Push",
+         "Jedi Mind Trick"
+      ],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Yoda",
+      "Player": "Red",
+      "Target": [
+         "Imperial Agent"
+      ],
+      "Wounds": [
+         "1"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 5,
+            "Offense": {
+               "Time": "11:42:54",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 4,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.413818359375
+            }
+         }
+      ]
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Dewback Rider_1",
+      "Player": "Blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   }
+]
