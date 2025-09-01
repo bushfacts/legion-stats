@@ -1,21 +1,15 @@
 import sys
-import csv
 
 from numpy import arange
 from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QCheckBox, QLabel, QLineEdit, QPushButton
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
-import pathlib
 import json
 
 from Functions import *
+import Main
 
-currentPath = pathlib.Path(__file__).parent.resolve()
-dataPath = currentPath.joinpath("Data\\Baer v BushFacts\\")
-timeStart = "[08:34:04]"
-
-BLUEPLAYER = "Brian Baer"
-REDPLAYER = "BushFacts"
+fileSaveName = "dice_rolls.json"
 
 ##################################################
 # FUNCTIONS
@@ -55,7 +49,7 @@ def UpdateOffense(dieRoll):
     global whiteOInput
     global offenseDictResult
     timeO.setText(dieRoll['Time'])
-    nameO.setText(BLUEPLAYER if dieRoll['Blue'] else REDPLAYER)
+    nameO.setText(Main.BLUE if dieRoll['Blue'] else Main.RED)
     redOInput.setText(str(dieRoll['Pool']['Red']))
     blackOInput.setText(str(dieRoll['Pool']['Black']))
     whiteOInput.setText(str(dieRoll['Pool']['White']))
@@ -104,7 +98,7 @@ def UpdateDefense(dieRoll):
     global whiteDInput
     global defenseDictResult
     timeD.setText(dieRoll['Time'])
-    nameD.setText(BLUEPLAYER if dieRoll['Blue'] else REDPLAYER)
+    nameD.setText(Main.BLUE if dieRoll['Blue'] else Main.RED)
     redDInput.setText(str(dieRoll['Pool']['Red']))
     whiteDInput.setText(str(dieRoll['Pool']['White']))
     defenseDictResult = dieRoll['Results']
@@ -185,9 +179,9 @@ def Submit():
     }
     print(thisResult)
     allResults = []
-    with open(dataPath.joinpath("dice_rolls.json"), "r") as file:
+    with open(Main.DATAPATH.joinpath(fileSaveName), "r") as file:
         allResults = json.load(file)
-    with open(dataPath.joinpath("dice_rolls.json"), "w") as file:
+    with open(Main.DATAPATH.joinpath(fileSaveName), "w") as file:
         allResults.append(thisResult)
         json.dump(allResults, file, indent=3)
 
@@ -218,7 +212,7 @@ defenseDictResult = {}
 mainIndex = 0
 fullResults = []
 
-diceData = ScrapeChatLog(dataPath.joinpath("chat_log.txt"), timeStart)
+diceData = ScrapeDice()
 
 mainLayout = QGridLayout()
 widget.setLayout(mainLayout)
@@ -229,18 +223,6 @@ bodyFont = QFont(font, 10)
 
 spacer = QLabel()
 mainLayout.addWidget(spacer, 2, 0, 1, 2)
-
-# 0-round 
-# 1-timestamp
-# 2-attacker/defender
-# 3-surge
-# 4-red
-# 5-black
-# 6-white
-# 7-result
-# 8-buttons
-# 9-submit
-# 10-done
 
 #region Labels
 redO = QLabel("Red")    
