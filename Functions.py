@@ -2,7 +2,7 @@ import pandas as pd
 import csv
 
 # parsing keywords I will be using:
-# rolled,
+# rolled
 
 def ScrapeChatLog(path, timeStart):
     data = []
