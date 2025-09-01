@@ -25,26 +25,27 @@ REDPLAYER = "BushFacts"
 #region Offense Functions
 def NextOffense():
     global offenseIndex
+    global diceData
     offenseIndex = offenseIndex + 1
-    dieRoll = GetOffense()
+    searchRange = range(offenseIndex, len(diceData))
+    dieRoll = GetOffense(searchRange)
     UpdateOffense(dieRoll)
 
 def PrevOffense():
     global offenseIndex
     offenseIndex = offenseIndex - 1
-    dieRoll = GetOffense()
+    searchRange = reversed(range(0,offenseIndex))
+    dieRoll = GetOffense(searchRange)
     UpdateOffense(dieRoll)
 
-def GetOffense():
+def GetOffense(searchRange):
     global offenseIndex
     global diceData
-    count = 0
-    for i in range(0,len(diceData)):
+    for i in searchRange:
         if diceData[i]["Offense"]:
-            if count == offenseIndex:
-                print(diceData[i])
-                return diceData[i]
-            count = count + 1
+            print(diceData[i])
+            offenseIndex = i
+            return diceData[i]
 
 def UpdateOffense(dieRoll):
     global timeO
@@ -74,26 +75,27 @@ def UpdateOffenseResults():
 #region Defense Functions
 def NextDefense():
     global defenseIndex
+    global diceData
     defenseIndex = defenseIndex + 1
-    dieRoll = GetDefense()
+    searchRange = range(defenseIndex, len(diceData))
+    dieRoll = GetDefense(searchRange)
     UpdateDefense(dieRoll)
 
 def PrevDefense():
     global defenseIndex
     defenseIndex = defenseIndex - 1
-    dieRoll = GetDefense()
+    searchRange = reversed(range(0, defenseIndex))
+    dieRoll = GetDefense(searchRange)
     UpdateDefense(dieRoll)
 
-def GetDefense():
+def GetDefense(searchRange):
     global defenseIndex
     global diceData
-    count = 0
-    for i in range(0,len(diceData)):
+    for i in searchRange:
         if not diceData[i]["Offense"]:
-            if count == defenseIndex:
-                print(diceData[i])
-                return diceData[i]
-            count = count + 1
+            print(diceData[i])
+            defenseIndex = i
+            return diceData[i]
 
 def UpdateDefense(dieRoll):
     global timeD
@@ -124,20 +126,19 @@ def NextSyncd():
     global diceData
 
     offenseIndex = offenseIndex + 1
-    count = 0
     offenseDieRoll = {}
     defenseDieRoll = {}
     offenseFound = False
-    for i in range(0,len(diceData)):
-        if diceData[i]["Offense"]:
-            if count == offenseIndex:
-                offenseDieRoll = diceData[i]
-                offenseFound = True
-            else:
-                count = count + 1
-        elif offenseFound:
+    for i in range(offenseIndex,len(diceData)):
+        if diceData[i]["Offense"] and not offenseFound:
+            offenseDieRoll = diceData[i]
+            offenseIndex = i
+            offenseFound = True
+        if not diceData[i]["Offense"] and offenseFound:
             defenseDieRoll = diceData[i]
+            defenseIndex = i
             break
+
 
     UpdateOffense(offenseDieRoll)
     UpdateDefense(defenseDieRoll)
@@ -186,10 +187,7 @@ def Submit():
     allResults = []
     with open(dataPath.joinpath("dice_rolls.json"), "r") as file:
         allResults = json.load(file)
-        # allResults.append(thisResult)
-        # json.dump(allResults, file, indent=3)
     with open(dataPath.joinpath("dice_rolls.json"), "w") as file:
-        # allResults = json.load(file)
         allResults.append(thisResult)
         json.dump(allResults, file, indent=3)
 
