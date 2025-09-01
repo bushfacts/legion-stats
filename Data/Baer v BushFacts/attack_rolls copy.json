@@ -1,0 +1,1314 @@
+[
+    {
+        "Round": 1,
+        "Offense": {
+            "Time": "08:39:17",
+            "Name": "Brian Baer",
+            "Surge": true,
+            "Pool": {
+                "Red": 2,
+                "Black": 0,
+                "White": 0
+            },
+            "Result": 2,
+            "Probability": 0
+        }
+        },
+        {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:40:00",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 4,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0
+            },
+            "Defense": {
+               "Time": "08:40:06",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 2
+               },
+               "Result": 2,
+               "Probability": 0
+            }
+         },   {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:40:17",
+               "Name": "BushFacts",
+               "Surge": false,
+               "Pool": {
+                  "Red": 4,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0
+            },
+            "Defense": {
+               "Time": "08:40:36",
+               "Name": "Brian Baer",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0
+            }
+         },
+   {
+      "Round": 1,
+      "Offense": {
+         "Time": "08:43:13",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 2,
+            "White": 1
+         },
+         "Result": 0,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 1,
+      "Offense": {
+         "Time": "08:43:27",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 0,
+            "White": 4
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "08:43:36",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 1,
+      "Offense": {
+         "Time": "08:48:46",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 4,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "08:49:11",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 1,
+      "Offense": {
+         "Time": "08:57:02",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "Black": 4,
+            "White": 4
+         },
+         "Result": 6,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "08:58:10",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 6
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 1,
+      "Offense": {
+         "Time": "08:58:31",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 1,
+      "Offense": {
+         "Time": "09:04:36",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:14:22",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 4,
+            "White": 4
+         },
+         "Result": 5,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:15:10",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:15:56",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:16:27",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:16:36",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:16:42",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 3
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:19:13",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 2,
+            "White": 1
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:19:27",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:19:43",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 0,
+            "White": 4
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:19:58",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:21:12",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 4,
+            "White": 4
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:21:52",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:25:53",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 6,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:31:45",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:36:06",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 4,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:36:11",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 4,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:38:14",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 6,
+            "White": 0
+         },
+         "Result": 5,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:38:56",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 6,
+            "White": 0
+         },
+         "Result": 5,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:40:49",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:41:14",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:43:24",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 0,
+            "Black": 0,
+            "White": 4
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:43:29",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:49:24",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 0,
+            "Black": 5,
+            "White": 0
+         },
+         "Result": 5,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:49:41",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:55:00",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 4,
+            "White": 4
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:55:43",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:57:43",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 4,
+            "White": 4
+         },
+         "Result": 6,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:59:23",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 6,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:59:45",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 0,
+            "Black": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "10:02:09",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 5,
+            "White": 5
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:02:17",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 4,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:12:52",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 6,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:14:04",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "Black": 4,
+            "White": 0
+         },
+         "Result": 5,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:14:39",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:16:32",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 5,
+            "White": 5
+         },
+         "Result": 6,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:16:42",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 6,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:18:38",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "Black": 5,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:18:47",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 4,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:20:49",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 2,
+            "Black": 4,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:20:54",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:23:02",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:23:13",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:24:03",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 0,
+            "White": 5
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:24:16",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 4,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:25:13",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 7,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 5,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:25:25",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 7,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:26:40",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 4,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:26:47",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 4,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:30:10",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 6,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 5,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:30:23",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 4,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:36:00",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "Black": 1,
+            "White": 1
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:36:12",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 4,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:36:52",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 0,
+            "Black": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:39:32",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 1,
+            "White": 1
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:39:47",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:43:33",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 0,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:43:49",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:46:55",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 0,
+            "Black": 2,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:47:02",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "White": 0
+         },
+         "Result": 0,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "10:52:54",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 6,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:53:07",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 4,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "10:58:10",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:58:31",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 1
+         },
+         "Result": 0,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "10:59:03",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 1,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:59:11",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:03:33",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 3
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:03:48",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 5,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:05:02",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:05:12",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 2
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:08:31",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 1,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:08:35",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:08:51",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 0,
+            "Black": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:11:50",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:12:03",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:15:14",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 4,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:16:06",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 4,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:16:12",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 2
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 5,
+      "Offense": {
+         "Time": "11:27:09",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:27:29",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 5,
+      "Offense": {
+         "Time": "11:29:05",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 3,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:29:13",
+         "Name": "Brian Baer",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "White": 0
+         },
+         "Result": 0,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 5,
+      "Offense": {
+         "Time": "11:39:56",
+         "Name": "BushFacts",
+         "Surge": false,
+         "Pool": {
+            "Red": 0,
+            "Black": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 5,
+      "Offense": {
+         "Time": "11:41:54",
+         "Name": "Brian Baer",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 3
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:42:04",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 5,
+      "Offense": {
+         "Time": "11:42:54",
+         "Name": "BushFacts",
+         "Surge": true,
+         "Pool": {
+            "Red": 4,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      }
+   }
+]

@@ -1,0 +1,87 @@
+Round,Action 1,Action 2,Free Actions,Free Tokens,Unit,Player,Target,Wounds,Notes
+1,Move,Standby,Scout,,Scout Troopers,Blue,,,
+1,Move,Dodge,,,Dewback Rider,Blue,,,
+1,Move,Dodge,,Surge,Clone Trooper Infantry,Red,,,
+1,Move,Dodge,,,Stormtrooper Riot Squad,Blue,,,
+1,Move,Move,,Surge,Clone Trooper Infantry,Red,,,
+1,Move,Dodge,,,Dewback Rider,Blue,,,
+1,Move,Climb,Scout,Aim//Aim//Surge//Surge,Rex,Red,,,
+1,Move,Move,Attack,Aim//Aim,Imperial Agent,Blue,Rex,1,
+1,Move,Attack,,Aim,Commando,Red,Imperial Agent,1,Infiltrate
+1,Move,Move,,,Stormtrooper Riot Squad,Blue,,,
+1,Attack,Recover,,Aim,Commando,Red,Stormtrooper Riot Squad,2,Infiltrate
+1,Move,Move,Attack,,Snowtrooper,Blue,Rex//Commandos,0//0,
+1,Move,Move,Restore,Surge,Clone Trooper Infantry,Red,,,
+1,Move,Move,,Surge//Aim,Black Sun Enforcers,Blue,,,
+1,Attack,Recover,,Aim,Commando,Red,Black Sun Enforcers,3,2 on stims//Infiltrate
+1,Move,Standby,Scout,,Scout Trooper,Blue,,,
+1,Move,Move,Scout//Jedi Mind Trick,,Yoda,Red,,,
+1,Move,Standby,,Surge//Aim,Black Sun Enforcers,Blue,,,
+1,Move,Move,Scout//Attack,Aim//Aim//Aim//Surge//Surge//Surge,Bad Batch,Red,Scout Trooper//Black Sun Enforcers,3//1,
+1,Move,Move,Attack,,Vader,Blue,Commandos,0,Infiltrate
+2,Move,Attack,,Surge//Aim,Black Sun Enforcers,Blue,Rex,1,stims applied
+2,Attack,,,Dodge//Dodge,Rex,Red,Vader//Black Sun Enforcers,0//1,Vader deflected
+2,Aim,Move,Attack,,Snowtrooper,Blue,Rex//Commandos,1//0,
+2,Move,Attack,,Aim,Commando,Red,Vader,0,Vader deflected
+2,Move,Move,Attack//Force Push,Dodge,Vader,Blue,Commandos,2,12 MOE suppression delivered//Burst
+2,Move,,,Surge,Clone Trooper Infantry,Red,,,
+2,Move,Climb,Attack,Aim//Aim,Imperial Agent,Blue,Clone Trooper Infantry,1,
+2,Move,Standby,,,Stormtrooper Riot Squad,Blue,,,
+2,Move,Attack,Restore,Surge,Clone Trooper Infantry,Red,Vader,1,
+2,Move,Standby,,,Scout Troopers,Blue,,,
+2,Aim,Attack,,Aim,Commando,Red,Vader,2,
+2,Move,Standby,,,Scout Troopers,Blue,,,
+2,Attack,,,Aim,Commando,Red,Black Sun Enforcers,0,
+2,Move,Attack,,,Stormtrooper Riot Squad,Blue,Rex,0,
+2,Move,Move,Jedi Mind Trick//Force Push,Aim//Aim//Dodge//Dodge//Surge//Surge,Yoda,Red,,,Burst
+2,Move,Standby,,Surge//Aim,Black Sun Enforcers,Blue,,,
+2,Climb,,Restore,Surge,Clone Trooper Infantry,Red,Black Sun Enforcers,1,
+2,Move,Standby,,,Dewback Rider,Blue,,,
+2,Move,Move,Attack//Knife Throw,Aim//Aim//Surge//Surge//Surge,Bad Batch,Red,Black Sun Enforcers,3,2 on stims//standby trips and BSE deals 0 to Bad Batch//Scout Standby trips and moves out of LOS//Hunter knife on BSE
+2,Move,Move,Attack,,Dewback Rider,Blue,Bad Batch,1,Spur
+3,Attack,Dodge,Force Push,Dodge,Vader,Blue,Commandos,3,killed
+3,Dodge,Attack,,Surge,Clone Trooper Infantry,Red,Vader,2,with Rex
+3,Dodge,Attack,,,Dewback Rider,Blue,Bad Batch,3,
+3,Move,Attack,,Surge,Clone Trooper Infantry,Red,Vader,0,with Rex
+3,Move,Move,Attack,,Stormtrooper Riot Squad,Blue,Bad Batch,0,
+3,Recover,Attack,,,Commando,Red,Black Sun Enforcers,0,
+3,Aim,Attack,,,Snowtrooper,Blue,Yoda,0,
+3,Attack,Attack,Jedi Mind Trick//Force Push,Aim//Dodge//Dodge,Yoda,Red,Snowtrooper//Stormtrooper Riot Squad,5//3,killed//
+3,Move,Move,,,Dewback Rider,Blue,,,
+3,Recover,,,,Commando,Red,,,
+3,Attack,,Force Push,Dodge,Vader,Blue,Clone Trooper Infantry,4,killed
+3,Climb,,,,Rex,Red,,,
+3,Move,,,Surge//Aim,Black Sun Enforcers,Blue,,,
+3,Attack,,,,Stormtrooper Riot Squad,Blue,,,
+3,Dodge,Attack,Knife Throw,Surge//Surge//Surge,Bad Batch,Red,Stormtrooper Riot Squad,3,Hunter knife on BSE
+3,Move,Attack,,Surge//Aim,Black Sun Enforcers,Blue,Commando,1,stims applied
+3,Move,Move,,Surge,Clone Trooper Infantry,Red,,,
+3,Move,Move,Attack,Aim//Aim,Imperial Agent,Blue,Clone Trooper Infantry,1,
+3,Move,Move,,,Scout Troopers,Blue,,,
+3,Climb,Attack,,,Scout Troopers,Blue,Clone Trooper Infantry,1,
+4,Aim,Move,Force Push//Vader's Might//Attack,,Vader,Blue,Clone Trooper Infantry,4,killed
+4,Dodge,,,,Stormtrooper Riot Squad,Blue,,,
+4,Recover,Attack,,,Commando,Red,Imperial Agent,1,
+4,Aim,Attack,,,Stormtrooper Riot Squad,Blue,Bad Batch,2,
+4,Move,Move,,Surge,Clone Trooper Infantry,Red,,,
+4,Aim,Attack,,,Dewback Rider,Blue,Bad Batch,3,
+4,Recover,Attack,,,Commando,Red,Imperial Agent,1,
+4,Recover,,,,Imperial Agent,Blue,,,
+4,Dodge,Standby,,,Scout Troopers,Blue,,,
+4,Dodge,Attack,Knife Throw,,Bad Batch,Red,Stormtrooper Riot Squad,0,Hunter knife kills Scout
+4,Move,,Attack,Aim//Dodge//Dodge,Rex,Red,Vader,2,killed
+4,Move,Standby,,,Black Sun Enforcers,Blue,,,
+4,Attack,Attack,Jedi Mind Trick//Force Push,Dodge//Dodge//Dodge,Yoda,Red,Stormtrooper Riot Squad//Imperial Agent,1//1,killed//
+4,Move,Move,,,Dewback Rider,Blue,,,
+5,Recover,,,,Rex,Red,,,
+5,Climb,Move,Aim//Attack,,Imperial Agent,Blue,Commando,1,
+5,Aim,Attack,,Surge,Clone Trooper Infantry,Red,Stormtrooper Riot Squad,2,
+5,Withdraw,Move,,,Stormtrooper Riot Squad,Blue,,,
+5,Move,Recover,,,Commando,Red,,,
+5,Move,Standby,,,Scout Troopers,Blue,,,
+5,Dodge,Standby,,,Commando,Red,,,
+5,Withdraw,Dodge,,Surge//Aim,Black Sun Enforcers,Blue,,,
+5,Dodge,Standby,Knife Throw,,Bad Batch,Red,,,Hunter knife kills Riot
+5,Aim,Attack,,,Dewback Rider,Blue,Bad Batch,0,
+5,Move,Move,Attack//Force Push//Jedi Mind Trick,Dodge,Yoda,Red,Imperial Agent,1,killed
+5,Move,Standby,,,Dewback Rider,Blue,,,
