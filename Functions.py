@@ -1,16 +1,17 @@
 import pandas as pd
-import csv
+import Main
+
 
 # parsing keywords I will be using:
 # rolled
 
-def ScrapeChatLog(path, timeStart):
+def ScrapeDice():
     data = []
-    with open(path) as f:
+    with open(Main.DATAPATH.joinpath("chat_log.txt")) as f:
         lines = f.readlines()
         parsing = False
         for i in range(0,len(lines)):
-            if timeStart in lines[i]:
+            if Main.TIME_START in lines[i]:
                 parsing = True
             if parsing:
                 if " rolled " in lines[i]:
@@ -29,7 +30,14 @@ def ParseDieRoll(line1, line2):
         offense = True
     blue = False
     if " RED " in line1:
-        blue = True
+        if Main.BLUE == "Brian Baer" and Main.RED == "BushFacts":
+            blue = True
+    else:
+        if Main.BLUE == "Brian Baer" and Main.RED == "BushFacts":
+            blue = False
+        else:
+            blue = True
+            
     poolText = line1.split("(")[1][:-1].replace("pool:","").strip()
     pool = {"Red": 0, "Black": 0, "White": 0}
     poolText = poolText.split(" ")
