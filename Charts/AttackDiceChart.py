@@ -1,12 +1,5 @@
-# number of dice is a big skew factor here... can make the width of the bars = the sum of all dice rolled
-
 #also, general note, get all the charts MADE, then worry about labeling and interactivity
 
-# tooltips/info I want to see for this one:
-# who is attacking who in each bar
-# what round it is
-# dice v dice and outcome
-# Player names
 # sorting might look cool
 
 import plotly.graph_objects as go
@@ -21,36 +14,75 @@ parent = os.path.dirname(current)
 sys.path.append(parent)
 import Main
 
-attackData = []
-with open(Main.DATAPATH.joinpath("attack_rolls.json"), "r") as file:
-    attackData = json.load(file)
+fullData = []
+with open(Main.DATAPATH.joinpath("full_data.json"), "r") as file:
+    fullData = json.load(file)
 
 timeData = []
 blueData = []
 redData = []
 diceCountData = []
+# label data
+round = []
+activationCounts = []
+attacker = []
+attackingUnit = []
+attackDice = []
+attackHits = []
+defender = []
+defendingUnit = []
+defenseDice = []
+defenseBlocks = []
+wounds = []
 
 timeIndex = 0
-for data in attackData:
-    timeIndex = timeIndex + 1
-    timeData.append(timeIndex)
-    if data["Offense"]["Name"] == Main.BLUE:
-        blueData.append(data["Offense"]["Probability"])
-        if "Defense" in data:
-            redData.append(data["Defense"]["Probability"])
+activationNumber = 1
+for activation in fullData:
+    targetNumber = 0
+    if len(round) > 0:
+        if not round[-1] == activation["Round"]: activationNumber = 1        
+    for data in activation["Attacks"]:
+        timeData.append(timeIndex)
+        round.append(activation["Round"])
+        activationCounts.append(activationNumber)
+        attacker.append(data["Offense"]["Name"])
+        attackingUnit.append(activation["Unit"])
+        attackDice.append(data["Offense"]["Pool"]["Red"]+data["Offense"]["Pool"]["Black"]+data["Offense"]["Pool"]["White"])
+        attackHits.append(data["Offense"]["Result"])
+        if data["Offense"]["Name"] == Main.BLUE:
+            defender.append(Main.RED)
         else:
-            redData.append(0)
-    else:
-        redData.append(data["Offense"]["Probability"])
+            defender.append(Main.BLUE)
         if "Defense" in data:
-            blueData.append(data["Defense"]["Probability"])
+            defenseDice.append(data["Defense"]["Pool"]["Red"]+data["Defense"]["Pool"]["White"])
+            defenseBlocks.append(data["Defense"]["Result"])
         else:
-            blueData.append(0)
-    
-    diceCount = data["Offense"]["Pool"]["Red"] + data["Offense"]["Pool"]["Black"] + data["Offense"]["Pool"]["White"]
-    if "Defense" in data:
-        diceCount = diceCount + data["Defense"]["Pool"]["Red"] + data["Defense"]["Pool"]["White"]
-    diceCountData.append(diceCount)
+            defenseDice.append(0)
+            defenseBlocks.append(0)
+        defendingUnit.append(activation["Target"][targetNumber])
+        wounds.append(int(activation["Wounds"][targetNumber]))
+        if data["Offense"]["Name"] == Main.BLUE:
+            blueData.append(data["Offense"]["Probability"])
+            if "Defense" in data:
+                redData.append(data["Defense"]["Probability"])
+            else:
+                redData.append(0)
+        else:
+            redData.append(data["Offense"]["Probability"])
+            if "Defense" in data:
+                blueData.append(data["Defense"]["Probability"])
+            else:
+                blueData.append(0)
+        
+        diceCount = data["Offense"]["Pool"]["Red"] + data["Offense"]["Pool"]["Black"] + data["Offense"]["Pool"]["White"]
+        if "Defense" in data:
+            diceCount = diceCount + data["Defense"]["Pool"]["Red"] + data["Defense"]["Pool"]["White"]
+        diceCountData.append(diceCount)
+
+        targetNumber = targetNumber + 1
+        timeIndex = timeIndex + 1
+    activationNumber = activationNumber + 1
+
 
 
 df = pd.DataFrame({
@@ -63,29 +95,58 @@ df["base"] = df[["blue","red"]].min(axis=1)
 df["blue_luck"] = (df["blue"]-df["red"]).clip(lower=0)
 df["red_luck"] = (df["red"]-df["blue"]).clip(lower=0)
 df["total_luck"] = df["red_luck"]+df["blue_luck"]+df["base"]
+df["blue_probability"] = 1 - df["blue"]
+df["red_probability"] = 1 - df["red"]
+df["attacking_unit"] = attackingUnit
+df["defending_unit"] = defendingUnit
+df["attacker"] = attacker
+df["defender"] = defender
+df["round"] = round
+df["activation_number"] = activationCounts
+df["wounds"] = wounds
+df["attack_dice"] = attackDice
+df["attack_hits"] = attackHits
+df["defense_dice"] = defenseDice
+df["defense_blocks"] = defenseBlocks
 
-# df = df.sort_values("total_luck", ascending = False)
+blueSortWeights = []
+for index, row in df.iterrows():
+    if row["blue"] > row["red"]:
+        blueSortWeights.append(row["blue"])
+    else:
+        blueSortWeights.append(-1 * row["red"])
+
+df["blue_sort_weights"] = blueSortWeights
+
+df = df.sort_values("blue_sort_weights", ascending=False)
+
 
 edges = [0] + [sum(df["dice_count"][:i+1]) for i in range(len(df["dice_count"]))]
 centers = [(edges[i] + edges[i+1])/2 for i in range(len(df["dice_count"]))]
-
 df = df.assign(center_point=centers)
 
 fig = go.Figure()
 
+hoverDataDF = df[["blue_probability", "red_probability", "attacking_unit", "defending_unit",
+                   "attacker", "defender", "round", "activation_number", "wounds",
+                   "attack_dice", "attack_hits", "defense_dice", "defense_blocks"]]
+
 fig.add_bar(
     x=df["center_point"], y=df["base"], width=df["dice_count"],
-    name="Overlap", marker_color=Main.BASE_COLOR
+    name="Overlap", marker_color=Main.BASE_COLOR,
+    customdata=hoverDataDF
 )
 
 fig.add_bar(
     x=df["center_point"], y=df["blue_luck"], width=df["dice_count"],
-    name=Main.BLUE + " luck", marker_color=Main.BLUE_COLOR_PRIMARY
+    name=Main.BLUE + " luckier", marker_color=Main.BLUE_COLOR_PRIMARY,
+    customdata=hoverDataDF
 )
 
 fig.add_bar(
     x=df["center_point"], y=df["red_luck"], width=df["dice_count"],
-    name=Main.RED + " luck", marker_color=Main.RED_COLOR_PRIMARY
+    name=Main.RED + " luckier", marker_color=Main.RED_COLOR_PRIMARY,
+    customdata=hoverDataDF
 )
 
 fig.update_layout(
@@ -96,5 +157,28 @@ fig.update_layout(
     xaxis_title = "Total Dice Rolled"
 )
 
+fig.update_traces(
+    hovertemplate = "<br>".join([
+        "Round: %{customdata[6]}",
+        "Activation: %{customdata[7]}",
+        "",
+        "Attacker: %{customdata[4]}",
+        "%{customdata[2]}",
+        "%{customdata[10]} out of %{customdata[9]} hit(s)",
+        "",
+        "Defender: %{customdata[5]}",
+        "%{customdata[3]}",
+        "%{customdata[12]} out of %{customdata[11]} block(s)",
+        "",
+        "Blue Probability: %{customdata[0]:,.0%}",
+        "Red Probability: %{customdata[1]:,.0%}",
+        "",
+        "Wounds Dealt: %{customdata[8]}",
+        "</br>"
+    ]),
+    hoverinfo="none"
+)
+
 fig.show()
-fig.write_html(Main.DATAPATH.joinpath("Charts\\Attack Luck.html"))
+
+# fig.write_html(Main.DATAPATH.joinpath("Charts\\Attack Luck.html"))
