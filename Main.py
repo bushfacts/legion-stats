@@ -95,6 +95,7 @@ def CombineDiceAndActions():
 
 
 
-CombineDiceAndActions()
 
-# print("done")
+
+
+CheckFullData()
