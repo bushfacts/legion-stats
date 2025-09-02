@@ -1,5 +1,6 @@
 import pandas as pd
 import Main
+import json
 
 
 # parsing keywords I will be using:
@@ -72,3 +73,19 @@ def ParseActions():
 
 def ParseTimeStamp():
     pass
+
+def CheckFullData():
+    fullData = []
+    with open(Main.DATAPATH.joinpath("full_data.json"), "r") as file:
+        fullData = json.load(file)
+
+    for activation in fullData:
+        for attack in activation["Attacks"]:
+            if activation["Player"] == "Blue":
+                if not attack["Offense"]["Name"] == Main.BLUE:
+                    print("------------------")
+                    print(activation) 
+            else:
+                if not attack["Offense"]["Name"] == Main.RED:
+                    print("------------------")
+                    print(activation)
