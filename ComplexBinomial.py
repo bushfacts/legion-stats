@@ -72,4 +72,3 @@ def DefenseSingleProb(red, white, surge, result):
         p = p * math.comb(white,w) * ((1+surge)/6)**(w) * ((5-surge)/6)**(white-w)
         prob = prob + p
     return prob
-
