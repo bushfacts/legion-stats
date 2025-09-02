@@ -435,7 +435,7 @@
          "Scout"
       ],
       "Free Tokens": [],
-      "Unit": "Scout Trooper_2",
+      "Unit": "Scout Troopers_2",
       "Player": "Blue",
       "Target": [],
       "Wounds": [],
@@ -499,7 +499,7 @@
       "Unit": "Bad Batch",
       "Player": "Red",
       "Target": [
-         "Scout Trooper_1",
+         "Scout Troopers_1",
          "Black Sun Enforcers_2"
       ],
       "Wounds": [
@@ -1221,7 +1221,7 @@
       "Unit": "Black Sun Enforcers_2",
       "Player": "Blue",
       "Target": ["Bad Batch"],
-      "Wounds": [],
+      "Wounds": [0],
       "Notes": [],
       "Attacks": [
          {
@@ -1309,10 +1309,12 @@
       "Unit": "Bad Batch",
       "Player": "Red",
       "Target": [
+         "Black Sun Enforcers_2",
          "Black Sun Enforcers_2"
       ],
       "Wounds": [
-         "3"
+         "3",
+         "1"
       ],
       "Notes": [
          "2 on stims",
@@ -1948,8 +1950,66 @@
       "Target": [
          "Yoda"
       ],
-      "Wounds": [],
+      "Wounds": [
+         "0"
+      ],
       "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:39:32",
+               "Name": "Brian Baer",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 1,
+                  "White": 1
+               },
+               "Result": 3,
+               "Probability": 0.362548828125
+            },
+            "Defense": {
+               "Time": "10:39:47",
+               "Name": "BushFacts",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.7037037037037037
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Dodge",
+         "Attack"
+      ],
+      "Free Actions": [
+         "Knife Throw"
+      ],
+      "Free Tokens": [
+         "Surge",
+         "Surge",
+         "Surge"
+      ],
+      "Unit": "Bad Batch",
+      "Player": "Red",
+      "Target": [
+         "Stormtrooper Riot Squad_1",
+         "Black Sun Enforcers_2"
+      ],
+      "Wounds": [
+         "3",
+         "1"
+      ],
+      "Notes": [
+         "Hunter knife on BSE"
+      ],
       "Attacks": [
          {
             "Round": 3,
@@ -1976,35 +2036,7 @@
                "Result": 1,
                "Probability": 0.012345679012345845
             }
-         }
-      ]
-   },
-   {
-      "Round": 3,
-      "Actions": [
-         "Dodge",
-         "Attack"
-      ],
-      "Free Actions": [
-         "Knife Throw"
-      ],
-      "Free Tokens": [
-         "Surge",
-         "Surge",
-         "Surge"
-      ],
-      "Unit": "Bad Batch",
-      "Player": "Red",
-      "Target": [
-         "Stormtrooper Riot Squad_1"
-      ],
-      "Wounds": [
-         "3"
-      ],
-      "Notes": [
-         "Hunter knife on BSE"
-      ],
-      "Attacks": [
+         },         
          {
             "Round": 3,
             "Offense": {
@@ -2018,32 +2050,6 @@
                },
                "Result": 1,
                "Probability": 0.5
-            }
-         },
-         {
-            "Round": 3,
-            "Offense": {
-               "Time": "10:39:32",
-               "Name": "Brian Baer",
-               "Surge": true,
-               "Pool": {
-                  "Red": 2,
-                  "Black": 1,
-                  "White": 1
-               },
-               "Result": 3,
-               "Probability": 0.362548828125
-            },
-            "Defense": {
-               "Time": "10:39:47",
-               "Name": "BushFacts",
-               "Surge": true,
-               "Pool": {
-                  "Red": 3,
-                  "White": 0
-               },
-               "Result": 3,
-               "Probability": 0.7037037037037037
             }
          }
       ]
@@ -2537,10 +2543,12 @@
       "Unit": "Bad Batch",
       "Player": "Red",
       "Target": [
-         "Stormtrooper Riot Squad_1"
+         "Stormtrooper Riot Squad_1",
+         "Scout Troopers_1"
       ],
       "Wounds": [
-         "0"
+         "0",
+         "1"
       ],
       "Notes": [
          "Hunter knife kills Scout"
@@ -2946,8 +2954,12 @@
       "Free Tokens": [],
       "Unit": "Bad Batch",
       "Player": "Red",
-      "Target": [],
-      "Wounds": [],
+      "Target": [
+         "Stormtrooper Riot Squad_2"
+      ],
+      "Wounds": [
+         "1"
+      ],
       "Notes": [
          "Hunter knife kills Riot"
       ],
