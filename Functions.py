@@ -2,10 +2,6 @@ import pandas as pd
 import Main
 import json
 
-
-# parsing keywords I will be using:
-# rolled
-
 def ScrapeDice():
     data = []
     with open(Main.DATAPATH.joinpath("chat_log.txt")) as f:
