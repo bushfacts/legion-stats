@@ -1,0 +1,2686 @@
+[
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Rebel Officer_1",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_2",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Dodge"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Rebel Sleeper Cell_1",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_5",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_6",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_6",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_7",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_7",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_8",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Mandalorian Super Commandos_9",
+      "Player": "blue",
+      "Target": [
+         "Fleet Troopers_8"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "08:45:42",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 4,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.26171875
+            },
+            "Defense": {
+               "Time": "08:45:59",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 4
+               },
+               "Result": 3,
+               "Probability": 0.888888888888889
+            }
+         }
+      ]
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim",
+         "Aim"
+      ],
+      "Unit": "Rebel Sleeper Cell_2",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_4",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_9",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_5",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim",
+         "Aim"
+      ],
+      "Unit": "Rebel Sleeper Cell_3",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_3",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Aim"
+      ],
+      "Unit": "Rebel Officer_2",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Mandalorian Super Commandos_8",
+      "Player": "blue",
+      "Target": [
+         "Fleet Troopers_8"
+      ],
+      "Wounds": [
+         "3.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "09:09:04",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 4,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.05078125
+            },
+            "Defense": {
+               "Time": "09:09:17",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 4
+               },
+               "Result": 1,
+               "Probability": 0.19753086419753108
+            }
+         }
+      ]
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_10",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move",
+         "Dodge"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Maul",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Rebel Agent",
+      "Player": "red",
+      "Target": [
+         "Mandalorian Super Commandos_8"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 1,
+            "Offense": {
+               "Time": "09:19:07",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 2,
+                  "White": 3
+               },
+               "Result": 1,
+               "Probability": 0.004291534423828125
+            },
+            "Defense": {
+               "Time": "09:19:35",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.2592592592592593
+            }
+         }
+      ]
+   },
+   {
+      "Round": 1,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Ahsoka Tano",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_3",
+      "Player": "blue",
+      "Target": [
+         "Fleet Troopers_9"
+      ],
+      "Wounds": [
+         "5.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:35:49",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 5,
+                  "White": 5
+               },
+               "Result": 7,
+               "Probability": 0.43550399437663145
+            },
+            "Defense": {
+               "Time": "09:37:08",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 5
+               },
+               "Result": 1,
+               "Probability": 0.1316872427983541
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Rebel Sleeper Cell_1",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Mandalorian Super Commandos_9",
+      "Player": "blue",
+      "Target": [
+         "Fleet Troopers_10"
+      ],
+      "Wounds": [
+         "5.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:42:52",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 4,
+                  "White": 4
+               },
+               "Result": 4,
+               "Probability": 0.435791015625
+            },
+            "Defense": {
+               "Time": "09:43:35",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 8
+               },
+               "Result": 2,
+               "Probability": 0.19509221155311718
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_6",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_4"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:46:16",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 0,
+                  "White": 8
+               },
+               "Result": 2,
+               "Probability": 0.007203198038041592
+            },
+            "Defense": {
+               "Time": "09:46:29",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 2,
+                  "White": 0
+               },
+               "Result": 0,
+               "Probability": 0.0
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Mandalorian Super Commandos_8",
+      "Player": "blue",
+      "Target": [
+         "Rebel Sleeper Cell_1"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:48:55",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 3,
+                  "White": 3
+               },
+               "Result": 6,
+               "Probability": 0.98046875
+            },
+            "Defense": {
+               "Time": "09:49:28",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 6
+               },
+               "Result": 4,
+               "Probability": 0.8998628257887518
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_7",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_4"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:53:57",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 0,
+                  "White": 8
+               },
+               "Result": 2,
+               "Probability": 0.007203198038041592
+            },
+            "Defense": {
+               "Time": "09:54:12",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 2,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.75
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_4",
+      "Player": "blue",
+      "Target": [
+         "Fleet Troopers_7"
+      ],
+      "Wounds": [
+         "4.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "09:56:35",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 2,
+                  "White": 2
+               },
+               "Result": 4,
+               "Probability": 0.673828125
+            },
+            "Defense": {
+               "Time": "09:56:48",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 5
+               },
+               "Result": 2,
+               "Probability": 0.4609053497942388
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Rebel Officer_2",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_4"
+      ],
+      "Wounds": [
+         "0.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "10:02:06",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 1,
+                  "White": 2
+               },
+               "Result": 1,
+               "Probability": 0.146484375
+            },
+            "Defense": {
+               "Time": "10:02:14",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.33333333333333337
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_5",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Rebel Sleeper Cell_3",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_5",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_4"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "10:10:22",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 0,
+                  "White": 8
+               },
+               "Result": 7,
+               "Probability": 0.8868289180099964
+            },
+            "Defense": {
+               "Time": "10:10:55",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 7,
+                  "White": 0
+               },
+               "Result": 6,
+               "Probability": 0.7366255144032923
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_7",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Recover"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_8",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Rebel Sleeper Cell_2",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_7"
+      ],
+      "Wounds": [
+         "3.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "10:17:22",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 11,
+                  "White": 0
+               },
+               "Result": 8,
+               "Probability": 0.6416590875014663
+            },
+            "Defense": {
+               "Time": "10:18:08",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 5,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.045267489711934394
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_6",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Aim"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Rebel Agent",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_4"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "10:23:09",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 2,
+                  "White": 3
+               },
+               "Result": 5,
+               "Probability": 0.8676490783691406
+            },
+            "Defense": {
+               "Time": "10:23:34",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 6,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.34375
+            }
+         }
+      ]
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_2",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Aim",
+         "Dodge"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Rebel Officer_1",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Move",
+         "Recover"
+      ],
+      "Free Actions": [
+         "Force Push",
+         "Force Choke"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Surge",
+         "Surge",
+         "Surge"
+      ],
+      "Unit": "Maul",
+      "Player": "blue",
+      "Target": [
+         "Rebel Sleeper Cell_2"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [
+         "Force Choke"
+      ],
+      "Attacks": []
+   },
+   {
+      "Round": 2,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack",
+         "Force Push"
+      ],
+      "Free Tokens": [
+         "Dodge",
+         "Dodge"
+      ],
+      "Unit": "Ahsoka Tano",
+      "Player": "red",
+      "Target": [
+         "Maul"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 2,
+            "Offense": {
+               "Time": "10:31:25",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 2,
+                  "White": 2
+               },
+               "Result": 3,
+               "Probability": 0.11942291259765625
+            },
+            "Defense": {
+               "Time": "10:31:50",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 5,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.5
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Mandalorian Super Commandos_8",
+      "Player": "blue",
+      "Target": [
+         "Fleet Troopers_6"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:41:39",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 7,
+                  "White": 1
+               },
+               "Result": 4,
+               "Probability": 0.2470703125
+            },
+            "Defense": {
+               "Time": "10:42:07",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 4
+               },
+               "Result": 2,
+               "Probability": 0.5925925925925926
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_5",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_3"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:43:46",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 0,
+                  "White": 8
+               },
+               "Result": 4,
+               "Probability": 0.19444851204752922
+            },
+            "Defense": {
+               "Time": "10:44:06",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.875
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_6",
+      "Player": "blue",
+      "Target": [
+         "Rebel Sleeper Cell_2"
+      ],
+      "Wounds": [
+         "5.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:44:44",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 7,
+                  "White": 4
+               },
+               "Result": 4,
+               "Probability": 0.14160919189453125
+            },
+            "Defense": {
+               "Time": "10:45:09",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 8
+               },
+               "Result": 3,
+               "Probability": 0.46822130772748083
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Rebel Sleeper Cell_1",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_3"
+      ],
+      "Wounds": [
+         "0.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:46:56",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 8,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.0003910660743713379
+            },
+            "Defense": {
+               "Time": "10:47:21",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 2
+               },
+               "Result": 2,
+               "Probability": 0.8888888888888888
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_5",
+      "Player": "blue",
+      "Target": [
+         "Rebel Sleeper Cell_3"
+      ],
+      "Wounds": [
+         "5.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:49:50",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 5,
+                  "White": 5
+               },
+               "Result": 5,
+               "Probability": 0.3228721618652344
+            },
+            "Defense": {
+               "Time": "10:50:16",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 6
+               },
+               "Result": 1,
+               "Probability": 0.08779149519890295
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_6",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_3"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:51:38",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 0,
+                  "White": 4
+               },
+               "Result": 3,
+               "Probability": 0.24356842041015625
+            },
+            "Defense": {
+               "Time": "10:51:59",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 5,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.5390946502057614
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Mandalorian Super Commandos_9",
+      "Player": "blue",
+      "Target": [
+         "Fleet Troopers_6"
+      ],
+      "Wounds": [
+         "3.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:54:05",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 5,
+                  "White": 1
+               },
+               "Result": 1,
+               "Probability": 0.005859375
+            },
+            "Defense": {
+               "Time": "10:54:39",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 3
+               },
+               "Result": 0,
+               "Probability": 1.1102230246251565e-16
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_8",
+      "Player": "red",
+      "Target": [
+         "Mandalorian Super Commandos_9"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:56:50",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 0,
+                  "White": 2
+               },
+               "Result": 1,
+               "Probability": 0.390625
+            },
+            "Defense": {
+               "Time": "10:56:56",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "White": 0
+               },
+               "Result": 0,
+               "Probability": 0.0
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_3",
+      "Player": "blue",
+      "Target": [
+         "Fleet Troopers_5"
+      ],
+      "Wounds": [
+         "0.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "10:58:26",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 2,
+                  "White": 2
+               },
+               "Result": 2,
+               "Probability": 0.0849609375
+            },
+            "Defense": {
+               "Time": "10:58:39",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 3
+               },
+               "Result": 3,
+               "Probability": 0.962962962962963
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_8",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_3"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "11:00:28",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 0,
+                  "White": 2
+               },
+               "Result": 2,
+               "Probability": 0.859375
+            },
+            "Defense": {
+               "Time": "11:00:37",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 2,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.25
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [
+         "Move"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_2",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim"
+      ],
+      "Unit": "Rebel Officer_2",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_3"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "11:05:14",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 3,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.371337890625
+            },
+            "Defense": {
+               "Time": "11:05:27",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.5
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_7",
+      "Player": "blue",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Rebel Officer_1",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Move",
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Maul",
+      "Player": "blue",
+      "Target": [
+         "Rebel Sleeper Cell_3"
+      ],
+      "Wounds": [
+         "3.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "11:12:43",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 6,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.40395355224609375
+            },
+            "Defense": {
+               "Time": "11:13:07",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 4
+               },
+               "Result": 1,
+               "Probability": 0.19753086419753108
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Aim",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Rebel Agent",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_2"
+      ],
+      "Wounds": [
+         "0.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "11:16:02",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 2,
+                  "White": 3
+               },
+               "Result": 2,
+               "Probability": 0.056362152099609375
+            },
+            "Defense": {
+               "Time": "11:16:18",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.0370370370370372
+            }
+         }
+      ]
+   },
+   {
+      "Round": 3,
+      "Actions": [
+         "Attack",
+         "Recover"
+      ],
+      "Free Actions": [
+         "Force Push"
+      ],
+      "Free Tokens": [
+         "Dodge",
+         "Dodge"
+      ],
+      "Unit": "Ahsoka Tano",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_2"
+      ],
+      "Wounds": [
+         "4.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 3,
+            "Offense": {
+               "Time": "11:17:31",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 2,
+                  "White": 2
+               },
+               "Result": 5,
+               "Probability": 0.7552680969238281
+            },
+            "Defense": {
+               "Time": "11:17:57",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 6,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.31961591220850505
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_8",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Dodge",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_7",
+      "Player": "blue",
+      "Target": [
+         "Ahsoka Tano"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:26:01",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 3,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.671875
+            },
+            "Defense": {
+               "Time": "11:26:16",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.2592592592592593
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_7",
+      "Player": "red",
+      "Target": [],
+      "Wounds": [],
+      "Notes": [],
+      "Attacks": []
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Mandalorian Super Commandos_8",
+      "Player": "blue",
+      "Target": [
+         "Rebel Sleeper Cell_1"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:28:43",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 7,
+                  "White": 1
+               },
+               "Result": 4,
+               "Probability": 0.2470703125
+            },
+            "Defense": {
+               "Time": "11:29:10",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 3
+               },
+               "Result": 2,
+               "Probability": 0.7407407407407407
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Quick Thinking",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [],
+      "Unit": "Rebel Officer_1",
+      "Player": "red",
+      "Target": [
+         "Mandalorian Super Commandos_8"
+      ],
+      "Wounds": [
+         "0.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:30:02",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 1,
+                  "White": 2
+               },
+               "Result": 1,
+               "Probability": 0.146484375
+            },
+            "Defense": {
+               "Time": "11:30:11",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "White": 0
+               },
+               "Result": 1,
+               "Probability": 0.33333333333333337
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Dodge",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_2",
+      "Player": "blue",
+      "Target": [
+         "Ahsoka Tano"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:30:36",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 0,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.15625
+            },
+            "Defense": {
+               "Time": "11:30:58",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.2592592592592593
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Standby"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [
+         "Aim",
+         "Aim"
+      ],
+      "Unit": "Rebel Sleeper Cell_1",
+      "Player": "red",
+      "Target": [
+         "Maul"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:36:25",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 6,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.40395355224609375
+            },
+            "Defense": {
+               "Time": "11:36:42",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 4,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.11111111111111127
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Move"
+      ],
+      "Free Actions": [
+         "Force Push",
+         "Attack",
+         "Force Choke"
+      ],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Maul",
+      "Player": "blue",
+      "Target": [
+         "Ahsoka Tano",
+         "Fleet Troopers_8"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [
+         "choked and killed fleet_8"
+      ],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:37:38",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 6,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.030590057373046875
+            },
+            "Defense": {
+               "Time": "11:37:45",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "White": 0
+               },
+               "Result": 0,
+               "Probability": 0.0
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Attack",
+         "Move"
+      ],
+      "Free Actions": [
+         "Force Push"
+      ],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Ahsoka Tano",
+      "Player": "red",
+      "Target": [
+         "Maul"
+      ],
+      "Wounds": [
+         "3.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:41:26",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 3,
+                  "Black": 2,
+                  "White": 2
+               },
+               "Result": 6,
+               "Probability": 0.7806024551391602
+            },
+            "Defense": {
+               "Time": "11:41:36",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 6,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.10013717421124857
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_6",
+      "Player": "blue",
+      "Target": [
+         "Ahsoka Tano"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:45:12",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 5,
+                  "Black": 3,
+                  "White": 0
+               },
+               "Result": 5,
+               "Probability": 0.2738037109375
+            },
+            "Defense": {
+               "Time": "11:45:39",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 8,
+                  "White": 0
+               },
+               "Result": 5,
+               "Probability": 0.2586495960981562
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Climb"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [
+         "Dodge"
+      ],
+      "Unit": "Rebel Agent",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_2"
+      ],
+      "Wounds": [
+         "0.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:49:16",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 2,
+                  "White": 3
+               },
+               "Result": 3,
+               "Probability": 0.25287628173828125
+            },
+            "Defense": {
+               "Time": "11:49:45",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.5555555555555556
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_5",
+      "Player": "blue",
+      "Target": [
+         "Fleet Troopers_7"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:51:32",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 5,
+                  "White": 5
+               },
+               "Result": 5,
+               "Probability": 0.0786837910709437
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Rebel Officer_2",
+      "Player": "red",
+      "Target": [
+         "Mandalorian Super Commandos_8"
+      ],
+      "Wounds": [
+         "1.0"
+      ],
+      "Notes": [],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:52:24",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 3,
+                  "White": 0
+               },
+               "Result": 2,
+               "Probability": 0.085693359375
+            },
+            "Defense": {
+               "Time": "11:52:36",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 4,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.40740740740740755
+            }
+         }
+      ]
+   },
+   {
+      "Round": 4,
+      "Actions": [
+         "Climb",
+         "Move"
+      ],
+      "Free Actions": [
+         "Attack"
+      ],
+      "Free Tokens": [],
+      "Unit": "Fleet Troopers_5",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_7"
+      ],
+      "Wounds": [
+         "3.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 4,
+            "Offense": {
+               "Time": "11:55:14",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 0,
+                  "White": 8
+               },
+               "Result": 6,
+               "Probability": 0.7024568039923906
+            },
+            "Defense": {
+               "Time": "11:55:21",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 6,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.31961591220850505
+            }
+         }
+      ]
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Black Sun Enforcers_6",
+      "Player": "blue",
+      "Target": [
+         "Fleet Troopers_5"
+      ],
+      "Wounds": [
+         "5.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 5,
+            "Offense": {
+               "Time": "11:59:33",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 1,
+                  "Black": 7,
+                  "White": 4
+               },
+               "Result": 8,
+               "Probability": 0.6731318424281199
+            },
+            "Defense": {
+               "Time": "11:59:53",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 10
+               },
+               "Result": 3,
+               "Probability": 0.2991413910481131
+            }
+         }
+      ]
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Move",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim"
+      ],
+      "Unit": "Rebel Sleeper Cell_1",
+      "Player": "red",
+      "Target": [
+         "Black Sun Enforcers_2"
+      ],
+      "Wounds": [
+         "2.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 5,
+            "Offense": {
+               "Time": "12:01:12",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "Black": 6,
+                  "White": 0
+               },
+               "Result": 4,
+               "Probability": 0.40395355224609375
+            },
+            "Defense": {
+               "Time": "12:01:29",
+               "Name": "Endless",
+               "Surge": true,
+               "Pool": {
+                  "Red": 5,
+                  "White": 0
+               },
+               "Result": 3,
+               "Probability": 0.2098765432098767
+            }
+         }
+      ]
+   },
+   {
+      "Round": 5,
+      "Actions": [
+         "Aim",
+         "Attack"
+      ],
+      "Free Actions": [],
+      "Free Tokens": [
+         "Aim",
+         "Surge"
+      ],
+      "Unit": "Black Sun Enforcers_5",
+      "Player": "blue",
+      "Target": [
+         "Rebel Sleeper Cell_1"
+      ],
+      "Wounds": [
+         "3.0"
+      ],
+      "Notes": [
+         "killed"
+      ],
+      "Attacks": [
+         {
+            "Round": 5,
+            "Offense": {
+               "Time": "12:02:42",
+               "Name": "Endless",
+               "Surge": false,
+               "Pool": {
+                  "Red": 2,
+                  "Black": 5,
+                  "White": 5
+               },
+               "Result": 3,
+               "Probability": 0.03805732727050781
+            },
+            "Defense": {
+               "Time": "12:03:07",
+               "Name": "Minor Tom",
+               "Surge": true,
+               "Pool": {
+                  "Red": 0,
+                  "White": 5
+               },
+               "Result": 1,
+               "Probability": 0.1316872427983541
+            }
+         }
+      ]
+   }
+]

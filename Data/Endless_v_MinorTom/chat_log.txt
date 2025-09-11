@@ -1,0 +1,353 @@
+System Console
+
+To autocomplete commands hit <tab>.
+Type help for help.
+
+[07:34:04]  Connected to Steam.
+[07:34:04]  34 Subscribed Workshop Mods.
+[07:34:04]  Querying Workshop...1
+[07:34:04]  Workshop mods are up-to-date.
+[07:34:04]  Workshop thumbnails are up-to-date.
+[07:34:43]  Camera # 1, 2, 3, 4 available.
+[07:34:48]  Loading complete.
+[07:34:48]  Game Load elapsed 4.674 (seconds)
+[07:35:01]  BLUE rolled 6 attack dice ( pool: 2R 2B 2W )
+2 CRITS, 1 HITS, 0 SURGES.
+[08:12:18]  BLUE rolled 4 attack dice ( pool: 4B )
+1 CRITS, 2 HITS, 0 SURGES.
+[08:12:21]  RED rolled 5 attack dice ( pool: 5B )
+1 CRITS, 2 HITS, 0 SURGES.
+[08:12:30]  RED rolled 4 attack dice ( pool: 4B )
+0 CRITS, 2 HITS, 1 SURGES.
+[08:45:42]  BLUE rolled 4 attack dice ( pool: 4R )
+2 CRITS, 1 HITS, 1 SURGES.
+[08:45:57]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[08:45:59]  RED rolled 4 defense dice ( pool: 4W )
+1 BLOCKS, 2 SURGES.
+[08:51:18]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[08:53:30]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[08:53:37]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[08:54:25]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[08:58:29]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[09:02:18]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[09:09:04]  BLUE rolled 4 attack dice ( pool: 4R )
+2 CRITS, 0 HITS, 1 SURGES.
+[09:09:08]  BLUE re-rolled 1R of 4 attack dice ( pool: 4R )
+3 CRITS, 0 HITS, 1 SURGES.
+[09:09:17]  RED rolled 4 defense dice ( pool: 4W )
+0 BLOCKS, 1 SURGES.
+[09:19:07]  RED rolled 6 attack dice ( pool: 1R 2B 3W )
+1 CRITS, 0 HITS, 0 SURGES.
+[09:19:18]  RED re-rolled 2B 2W of 6 attack dice ( pool: 1R 2B 3W )
+1 CRITS, 2 HITS, 1 SURGES.
+[09:19:27]  BLUE rolled 2 defense dice ( pool: 2W )
+1 BLOCKS, 1 SURGES.
+[09:19:35]  BLUE rolled 3 defense dice ( pool: 3R )
+0 BLOCKS, 2 SURGES.
+[09:21:00]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[09:35:49]  BLUE rolled 12 attack dice ( pool: 2R 5B 5W )
+1 CRITS, 4 HITS, 2 SURGES.
+[09:36:08]  BLUE re-rolled 1R 2B of 12 attack dice ( pool: 2R 5B 5W )
+2 CRITS, 6 HITS, 1 SURGES.
+[09:36:37]  RED rolled 7 defense dice ( pool: 7W )
+2 BLOCKS, 1 SURGES.
+[09:37:08]  RED rolled 5 defense dice ( pool: 5W )
+1 BLOCKS, 0 SURGES.
+[09:38:41]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[09:42:52]  BLUE rolled 9 attack dice ( pool: 1R 4B 4W )
+2 CRITS, 2 HITS, 1 SURGES.
+[09:43:00]  BLUE re-rolled 1B 2W of 9 attack dice ( pool: 1R 4B 4W )
+3 CRITS, 2 HITS, 1 SURGES.
+[09:43:05]  BLUE re-rolled 3W of 9 attack dice ( pool: 1R 4B 4W )
+4 CRITS, 3 HITS, 1 SURGES.
+[09:43:26]  RED rolled 4 defense dice ( pool: 4W )
+0 BLOCKS, 0 SURGES.
+[09:43:35]  RED rolled 8 defense dice ( pool: 8W )
+1 BLOCKS, 1 SURGES.
+[09:46:16]  RED rolled 10 attack dice ( pool: 2R 8W )
+0 CRITS, 2 HITS, 0 SURGES.
+[09:46:24]  BLUE rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 0 SURGES.
+[09:46:29]  BLUE rolled 2 defense dice ( pool: 2R )
+0 BLOCKS, 0 SURGES.
+[09:48:55]  BLUE rolled 7 attack dice ( pool: 1R 3B 3W )
+0 CRITS, 6 HITS, 0 SURGES.
+[09:49:04]  BLUE re-rolled 1W of 7 attack dice ( pool: 1R 3B 3W )
+0 CRITS, 6 HITS, 0 SURGES.
+[09:49:06]  BLUE re-rolled 1W of 7 attack dice ( pool: 1R 3B 3W )
+0 CRITS, 6 HITS, 0 SURGES.
+[09:49:14]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[09:49:28]  RED rolled 6 defense dice ( pool: 6W )
+3 BLOCKS, 1 SURGES.
+[09:49:44]  RED rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 0 SURGES.
+[09:53:57]  RED rolled 10 attack dice ( pool: 2R 8W )
+1 CRITS, 0 HITS, 1 SURGES.
+[09:54:07]  BLUE rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[09:54:12]  BLUE rolled 2 defense dice ( pool: 2R )
+2 BLOCKS, 0 SURGES.
+[09:54:57]  BLUE rolled 2 defense dice ( pool: 2W )
+1 BLOCKS, 0 SURGES.
+[09:56:35]  BLUE rolled 6 attack dice ( pool: 2R 2B 2W )
+0 CRITS, 4 HITS, 0 SURGES.
+[09:56:39]  BLUE re-rolled 1B 1W of 6 attack dice ( pool: 2R 2B 2W )
+0 CRITS, 5 HITS, 0 SURGES.
+[09:56:48]  RED rolled 5 defense dice ( pool: 5W )
+0 BLOCKS, 2 SURGES.
+[10:01:10]  RED rolled 1 defense dice ( pool: 1R )
+0 BLOCKS, 0 SURGES.
+[10:02:06]  RED rolled 3 attack dice ( pool: 1B 2W )
+1 CRITS, 0 HITS, 0 SURGES.
+[10:02:14]  BLUE rolled 1 defense dice ( pool: 1R )
+0 BLOCKS, 1 SURGES.
+[10:10:22]  RED rolled 10 attack dice ( pool: 2R 8W )
+4 CRITS, 3 HITS, 0 SURGES.
+[10:10:33]  RED re-rolled 2W of 10 attack dice ( pool: 2R 8W )
+4 CRITS, 4 HITS, 0 SURGES.
+[10:10:48]  BLUE rolled 4 defense dice ( pool: 4W )
+1 BLOCKS, 0 SURGES.
+[10:10:55]  BLUE rolled 7 defense dice ( pool: 7R )
+5 BLOCKS, 1 SURGES.
+[10:13:05]  RED rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[10:17:22]  RED rolled 11 attack dice ( pool: 11B )
+0 CRITS, 6 HITS, 2 SURGES.
+[10:17:46]  RED re-rolled 2B of 12 attack dice ( pool: 12B )
+0 CRITS, 9 HITS, 2 SURGES.
+[10:17:55]  BLUE rolled 11 defense dice ( pool: 11W )
+5 BLOCKS, 1 SURGES.
+[10:18:08]  BLUE rolled 5 defense dice ( pool: 5R )
+2 BLOCKS, 0 SURGES.
+[10:23:09]  RED rolled 6 attack dice ( pool: 1R 2B 3W )
+1 CRITS, 3 HITS, 1 SURGES.
+[10:23:14]  RED re-rolled 1W of 6 attack dice ( pool: 1R 2B 3W )
+1 CRITS, 3 HITS, 1 SURGES.
+[10:23:19]  RED re-rolled 1W of 6 attack dice ( pool: 1R 2B 3W )
+1 CRITS, 4 HITS, 1 SURGES.
+[10:23:29]  BLUE rolled 4 defense dice ( pool: 4W )
+0 BLOCKS, 0 SURGES.
+[10:23:34]  BLUE rolled 6 defense dice ( pool: 6R )
+3 BLOCKS, 1 SURGES.
+[10:27:44]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[10:31:25]  RED rolled 6 attack dice ( pool: 2R 2B 2W )
+0 CRITS, 3 HITS, 0 SURGES.
+[10:31:50]  BLUE rolled 5 defense dice ( pool: 5R )
+3 BLOCKS, 1 SURGES.
+[10:41:39]  BLUE rolled 9 attack dice ( pool: 1R 7B 1W )
+1 CRITS, 3 HITS, 0 SURGES.
+[10:41:45]  BLUE re-rolled 3B of 9 attack dice ( pool: 1R 7B 1W )
+2 CRITS, 4 HITS, 0 SURGES.
+[10:41:58]  RED rolled 4 defense dice ( pool: 4W )
+1 BLOCKS, 0 SURGES.
+[10:42:07]  RED rolled 4 defense dice ( pool: 4W )
+1 BLOCKS, 1 SURGES.
+[10:43:46]  RED rolled 10 attack dice ( pool: 2R 8W )
+0 CRITS, 3 HITS, 1 SURGES.
+[10:43:54]  RED re-rolled 2W of 10 attack dice ( pool: 2R 8W )
+0 CRITS, 3 HITS, 2 SURGES.
+[10:44:02]  BLUE rolled 5 defense dice ( pool: 5W )
+1 BLOCKS, 1 SURGES.
+[10:44:06]  BLUE rolled 3 defense dice ( pool: 3R )
+3 BLOCKS, 0 SURGES.
+[10:44:44]  BLUE rolled 12 attack dice ( pool: 1R 7B 4W )
+1 CRITS, 3 HITS, 2 SURGES.
+[10:44:52]  BLUE re-rolled 3B of 12 attack dice ( pool: 1R 7B 4W )
+2 CRITS, 3 HITS, 2 SURGES.
+[10:44:58]  BLUE re-rolled 2B 1W of 12 attack dice ( pool: 1R 7B 4W )
+3 CRITS, 3 HITS, 2 SURGES.
+[10:45:09]  RED rolled 8 defense dice ( pool: 8W )
+2 BLOCKS, 1 SURGES.
+[10:45:57]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[10:46:56]  RED rolled 8 attack dice ( pool: 8B )
+0 CRITS, 1 HITS, 0 SURGES.
+[10:47:00]  RED re-rolled 2B of 8 attack dice ( pool: 8B )
+0 CRITS, 2 HITS, 0 SURGES.
+[10:47:21]  BLUE rolled 2 defense dice ( pool: 2W )
+1 BLOCKS, 1 SURGES.
+[10:49:31]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[10:49:50]  BLUE rolled 12 attack dice ( pool: 2R 5B 5W )
+2 CRITS, 3 HITS, 2 SURGES.
+[10:49:57]  BLUE re-rolled 1R 2B of 12 attack dice ( pool: 2R 5B 5W )
+3 CRITS, 3 HITS, 0 SURGES.
+[10:50:08]  RED rolled 3 defense dice ( pool: 3W )
+0 BLOCKS, 0 SURGES.
+[10:50:16]  RED rolled 6 defense dice ( pool: 6W )
+1 BLOCKS, 0 SURGES.
+[10:51:38]  RED rolled 6 attack dice ( pool: 2R 4W )
+1 CRITS, 2 HITS, 0 SURGES.
+[10:51:42]  RED re-rolled 2W of 6 attack dice ( pool: 2R 4W )
+2 CRITS, 3 HITS, 0 SURGES.
+[10:51:51]  BLUE rolled 3 defense dice ( pool: 3W )
+0 BLOCKS, 0 SURGES.
+[10:51:59]  BLUE rolled 5 defense dice ( pool: 5R )
+3 BLOCKS, 1 SURGES.
+[10:54:05]  BLUE rolled 7 attack dice ( pool: 1R 5B 1W )
+0 CRITS, 1 HITS, 2 SURGES.
+[10:54:12]  BLUE re-rolled 1R 2B of 7 attack dice ( pool: 1R 5B 1W )
+0 CRITS, 3 HITS, 1 SURGES.
+[10:54:35]  RED rolled 3 defense dice ( pool: 3W )
+0 BLOCKS, 0 SURGES.
+[10:54:39]  RED rolled 3 defense dice ( pool: 3W )
+0 BLOCKS, 0 SURGES.
+[10:56:50]  RED rolled 2 attack dice ( pool: 2W )
+0 CRITS, 0 HITS, 1 SURGES.
+[10:56:56]  BLUE rolled 1 defense dice ( pool: 1R )
+0 BLOCKS, 0 SURGES.
+[10:57:57]  BLUE rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 0 SURGES.
+[10:58:26]  BLUE rolled 6 attack dice ( pool: 2R 2B 2W )
+0 CRITS, 2 HITS, 1 SURGES.
+[10:58:31]  BLUE re-rolled 1R 1B 1W of 6 attack dice ( pool: 2R 2B 2W )
+0 CRITS, 3 HITS, 2 SURGES.
+[10:58:39]  RED rolled 3 defense dice ( pool: 3W )
+3 BLOCKS, 0 SURGES.
+[11:00:28]  RED rolled 2 attack dice ( pool: 2W )
+0 CRITS, 1 HITS, 1 SURGES.
+[11:00:33]  BLUE rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 1 SURGES.
+[11:00:37]  BLUE rolled 2 defense dice ( pool: 2R )
+1 BLOCKS, 0 SURGES.
+[11:01:26]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[11:05:14]  RED rolled 4 attack dice ( pool: 1R 3B )
+0 CRITS, 3 HITS, 0 SURGES.
+[11:05:18]  RED re-rolled 1B of 4 attack dice ( pool: 1R 3B )
+0 CRITS, 3 HITS, 0 SURGES.
+[11:05:20]  RED re-rolled 1B of 4 attack dice ( pool: 1R 3B )
+0 CRITS, 3 HITS, 0 SURGES.
+[11:05:27]  BLUE rolled 3 defense dice ( pool: 3R )
+2 BLOCKS, 0 SURGES.
+[11:12:43]  BLUE rolled 6 attack dice ( pool: 6B )
+0 CRITS, 3 HITS, 1 SURGES.
+[11:13:07]  RED rolled 4 defense dice ( pool: 4W )
+0 BLOCKS, 1 SURGES.
+[11:16:02]  RED rolled 6 attack dice ( pool: 1R 2B 3W )
+1 CRITS, 1 HITS, 0 SURGES.
+[11:16:08]  RED re-rolled 1B 3W of 6 attack dice ( pool: 1R 2B 3W )
+1 CRITS, 2 HITS, 0 SURGES.
+[11:16:14]  BLUE rolled 2 defense dice ( pool: 2W )
+0 BLOCKS, 0 SURGES.
+[11:16:18]  BLUE rolled 3 defense dice ( pool: 3R )
+1 BLOCKS, 0 SURGES.
+[11:17:31]  RED rolled 6 attack dice ( pool: 2R 2B 2W )
+1 CRITS, 3 HITS, 1 SURGES.
+[11:17:57]  BLUE rolled 6 defense dice ( pool: 6R )
+3 BLOCKS, 1 SURGES.
+[11:18:52]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[11:26:01]  BLUE rolled 5 attack dice ( pool: 2R 3B )
+2 CRITS, 2 HITS, 0 SURGES.
+[11:26:04]  BLUE re-rolled 1B of 5 attack dice ( pool: 2R 3B )
+2 CRITS, 2 HITS, 0 SURGES.
+[11:26:16]  RED rolled 3 defense dice ( pool: 3R )
+1 BLOCKS, 1 SURGES.
+[11:27:47]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[11:28:31]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[11:28:43]  BLUE rolled 9 attack dice ( pool: 1R 7B 1W )
+1 CRITS, 3 HITS, 0 SURGES.
+[11:28:50]  BLUE re-rolled 1R 2B of 9 attack dice ( pool: 1R 7B 1W )
+1 CRITS, 3 HITS, 0 SURGES.
+[11:28:59]  RED rolled 3 defense dice ( pool: 3W )
+1 BLOCKS, 0 SURGES.
+[11:29:10]  RED rolled 3 defense dice ( pool: 3W )
+2 BLOCKS, 0 SURGES.
+[11:30:02]  RED rolled 3 attack dice ( pool: 1B 2W )
+0 CRITS, 0 HITS, 1 SURGES.
+[11:30:08]  BLUE rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[11:30:11]  BLUE rolled 1 defense dice ( pool: 1R )
+0 BLOCKS, 1 SURGES.
+[11:30:36]  BLUE rolled 3 attack dice ( pool: 3R )
+1 CRITS, 1 HITS, 0 SURGES.
+[11:30:40]  BLUE re-rolled 1R of 3 attack dice ( pool: 3R )
+1 CRITS, 2 HITS, 0 SURGES.
+[11:30:51]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[11:30:58]  RED rolled 3 defense dice ( pool: 3R )
+2 BLOCKS, 0 SURGES.
+[11:31:18]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[11:33:11]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[11:36:25]  RED rolled 6 attack dice ( pool: 6B )
+0 CRITS, 4 HITS, 0 SURGES.
+[11:36:29]  RED re-rolled 2B of 6 attack dice ( pool: 6B )
+0 CRITS, 4 HITS, 1 SURGES.
+[11:36:37]  BLUE rolled 5 defense dice ( pool: 5W )
+0 BLOCKS, 1 SURGES.
+[11:36:42]  BLUE rolled 4 defense dice ( pool: 4R )
+2 BLOCKS, 0 SURGES.
+[11:37:38]  BLUE rolled 6 attack dice ( pool: 6B )
+1 CRITS, 0 HITS, 1 SURGES.
+[11:37:45]  RED rolled 2 defense dice ( pool: 2R )
+0 BLOCKS, 0 SURGES.
+[11:39:21]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[11:41:26]  RED rolled 7 attack dice ( pool: 3R 2B 2W )
+0 CRITS, 6 HITS, 0 SURGES.
+[11:41:36]  BLUE rolled 6 defense dice ( pool: 6R )
+2 BLOCKS, 1 SURGES.
+[11:41:37]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[11:45:12]  BLUE rolled 8 attack dice ( pool: 5R 3B )
+2 CRITS, 3 HITS, 0 SURGES.
+[11:45:17]  BLUE re-rolled 3B of 8 attack dice ( pool: 5R 3B )
+2 CRITS, 5 HITS, 0 SURGES.
+[11:45:22]  BLUE re-rolled 1B of 8 attack dice ( pool: 5R 3B )
+2 CRITS, 6 HITS, 0 SURGES.
+[11:45:29]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[11:45:39]  RED rolled 8 defense dice ( pool: 8R )
+4 BLOCKS, 1 SURGES.
+[11:49:16]  RED rolled 6 attack dice ( pool: 1R 2B 3W )
+1 CRITS, 2 HITS, 0 SURGES.
+[11:49:45]  BLUE rolled 2 defense dice ( pool: 2R )
+1 BLOCKS, 1 SURGES.
+[11:51:32]  BLUE rolled 12 attack dice ( pool: 2R 5B 5W )
+2 CRITS, 3 HITS, 0 SURGES.
+[11:51:37]  BLUE re-rolled 1R 2B of 12 attack dice ( pool: 2R 5B 5W )
+2 CRITS, 4 HITS, 0 SURGES.
+[11:52:24]  RED rolled 4 attack dice ( pool: 1R 3B )
+0 CRITS, 1 HITS, 1 SURGES.
+[11:52:29]  RED re-rolled 2B of 4 attack dice ( pool: 1R 3B )
+0 CRITS, 1 HITS, 1 SURGES.
+[11:52:32]  RED re-rolled 2B of 4 attack dice ( pool: 1R 3B )
+1 CRITS, 2 HITS, 1 SURGES.
+[11:52:36]  BLUE rolled 4 defense dice ( pool: 4R )
+3 BLOCKS, 0 SURGES.
+[11:52:43]  BLUE re-rolled 1R of 5 defense dice ( pool: 5R )
+4 BLOCKS, 0 SURGES.
+[11:53:40]  RED rolled 1 defense dice ( pool: 1W )
+0 BLOCKS, 0 SURGES.
+[11:55:14]  RED rolled 10 attack dice ( pool: 2R 8W )
+3 CRITS, 2 HITS, 1 SURGES.
+[11:55:21]  BLUE rolled 6 defense dice ( pool: 6R )
+2 BLOCKS, 2 SURGES.
+[11:57:16]  BLUE rolled 1 defense dice ( pool: 1R )
+1 BLOCKS, 0 SURGES.
+[11:59:33]  BLUE rolled 12 attack dice ( pool: 1R 7B 4W )
+0 CRITS, 5 HITS, 3 SURGES.
+[11:59:41]  BLUE re-rolled 2B 1W of 12 attack dice ( pool: 1R 7B 4W )
+0 CRITS, 5 HITS, 5 SURGES.
+[11:59:53]  RED rolled 10 defense dice ( pool: 10W )
+0 BLOCKS, 3 SURGES.
+[12:01:12]  RED rolled 6 attack dice ( pool: 6B )
+2 CRITS, 2 HITS, 0 SURGES.
+[12:01:19]  RED rolled 6 attack dice ( pool: 6B )
+0 CRITS, 3 HITS, 0 SURGES.
+[12:01:22]  RED re-rolled 2B of 6 attack dice ( pool: 6B )
+0 CRITS, 2 HITS, 0 SURGES.
+[12:01:29]  BLUE rolled 5 defense dice ( pool: 5R )
+2 BLOCKS, 1 SURGES.
+[12:02:16]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[12:02:42]  BLUE rolled 12 attack dice ( pool: 2R 5B 5W )
+1 CRITS, 2 HITS, 1 SURGES.
+[12:02:51]  BLUE re-rolled 3B of 12 attack dice ( pool: 2R 5B 5W )
+1 CRITS, 4 HITS, 1 SURGES.
+[12:03:02]  RED rolled 5 defense dice ( pool: 5W )
+0 BLOCKS, 1 SURGES.
+[12:03:07]  RED rolled 5 defense dice ( pool: 5W )
+1 BLOCKS, 0 SURGES.
+[12:03:20]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.
+[12:04:27]  RED rolled 6 attack dice ( pool: 1R 2B 3W )
+1 CRITS, 2 HITS, 0 SURGES.
+[12:04:32]  RED re-rolled 1B 2W of 6 attack dice ( pool: 1R 2B 3W )
+1 CRITS, 3 HITS, 0 SURGES.
+[12:05:32]  RED rolled 3 attack dice ( pool: 3B )
+0 CRITS, 1 HITS, 0 SURGES.
+[12:05:37]  BLUE rolled 3 attack dice ( pool: 3B )
+1 CRITS, 1 HITS, 0 SURGES.
+[12:09:58]  Grey (Spectator) cannot interact. Click your name in the top right -> Change Color, then click a colored circle.

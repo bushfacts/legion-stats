@@ -1,0 +1,1109 @@
+[
+   {
+      "Round": 1,
+      "Offense": {
+         "Time": "08:45:42",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 4,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "08:45:59",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 4
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 1,
+      "Offense": {
+         "Time": "09:09:04",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 4,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:09:17",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 4
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 1,
+      "Offense": {
+         "Time": "09:19:07",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "Black": 2,
+            "White": 3
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:19:35",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:35:49",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 5,
+            "White": 5
+         },
+         "Result": 7,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:37:08",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 5
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:42:52",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 1,
+            "Black": 4,
+            "White": 4
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:43:35",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 8
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:46:16",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 0,
+            "White": 8
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:46:29",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 2,
+            "White": 0
+         },
+         "Result": 0,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:48:55",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 1,
+            "Black": 3,
+            "White": 3
+         },
+         "Result": 6,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:49:28",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 6
+         },
+         "Result": 4,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:53:57",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 0,
+            "White": 8
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:54:12",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 2,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "09:56:35",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 2,
+            "Black": 2,
+            "White": 2
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "09:56:48",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 5
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "10:02:06",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 1,
+            "White": 2
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:02:14",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "10:10:22",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 0,
+            "White": 8
+         },
+         "Result": 7,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:10:55",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 7,
+            "White": 0
+         },
+         "Result": 6,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "10:17:22",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 11,
+            "White": 0
+         },
+         "Result": 8,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:18:08",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 5,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "10:23:09",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "Black": 2,
+            "White": 3
+         },
+         "Result": 5,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:23:34",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 6,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 2,
+      "Offense": {
+         "Time": "10:31:25",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 2,
+            "White": 2
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:31:50",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 5,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:41:39",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 1,
+            "Black": 7,
+            "White": 1
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:42:07",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 4
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:43:46",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 0,
+            "White": 8
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:44:06",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:44:44",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 1,
+            "Black": 7,
+            "White": 4
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:45:09",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 8
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:46:56",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 8,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:47:21",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 2
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:49:50",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 2,
+            "Black": 5,
+            "White": 5
+         },
+         "Result": 5,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:50:16",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 6
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:51:38",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 0,
+            "White": 4
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:51:59",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 5,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:54:05",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 1,
+            "Black": 5,
+            "White": 1
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:54:39",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 3
+         },
+         "Result": 0,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:56:50",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 0,
+            "White": 2
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:56:56",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "White": 0
+         },
+         "Result": 0,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "10:58:26",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 2,
+            "Black": 2,
+            "White": 2
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "10:58:39",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 3
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "11:00:28",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 0,
+            "White": 2
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:00:37",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 2,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "11:05:14",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "Black": 3,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:05:27",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "11:12:43",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 6,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:13:07",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 4
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "11:16:02",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "Black": 2,
+            "White": 3
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:16:18",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 3,
+      "Offense": {
+         "Time": "11:17:31",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 2,
+            "White": 2
+         },
+         "Result": 5,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:17:57",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 6,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:26:01",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 2,
+            "Black": 3,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:26:16",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:28:43",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 1,
+            "Black": 7,
+            "White": 1
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:29:10",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 3
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:30:02",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 1,
+            "White": 2
+         },
+         "Result": 1,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:30:11",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "White": 0
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:30:36",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 3,
+            "Black": 0,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:30:58",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:36:25",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 6,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:36:42",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 4,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:37:38",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 6,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:37:45",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "White": 0
+         },
+         "Result": 0,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:41:26",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 3,
+            "Black": 2,
+            "White": 2
+         },
+         "Result": 6,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:41:36",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 6,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:45:12",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 5,
+            "Black": 3,
+            "White": 0
+         },
+         "Result": 5,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:45:39",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 8,
+            "White": 0
+         },
+         "Result": 5,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:49:16",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "Black": 2,
+            "White": 3
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:49:45",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:51:32",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 5,
+            "White": 5
+         },
+         "Result": 5,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:52:24",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "Black": 3,
+            "White": 0
+         },
+         "Result": 2,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:52:36",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 4,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 4,
+      "Offense": {
+         "Time": "11:55:14",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 2,
+            "Black": 0,
+            "White": 8
+         },
+         "Result": 6,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:55:21",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 6,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 5,
+      "Offense": {
+         "Time": "11:59:33",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 1,
+            "Black": 7,
+            "White": 4
+         },
+         "Result": 8,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "11:59:53",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 10
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 5,
+      "Offense": {
+         "Time": "12:01:12",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "Black": 6,
+            "White": 0
+         },
+         "Result": 4,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "12:01:29",
+         "Name": "Endless",
+         "Surge": true,
+         "Pool": {
+            "Red": 5,
+            "White": 0
+         },
+         "Result": 3,
+         "Probability": 0
+      }
+   },
+   {
+      "Round": 5,
+      "Offense": {
+         "Time": "12:02:42",
+         "Name": "Endless",
+         "Surge": false,
+         "Pool": {
+            "Red": 2,
+            "Black": 5,
+            "White": 5
+         },
+         "Result": 3,
+         "Probability": 0
+      },
+      "Defense": {
+         "Time": "12:03:07",
+         "Name": "Minor Tom",
+         "Surge": true,
+         "Pool": {
+            "Red": 0,
+            "White": 5
+         },
+         "Result": 1,
+         "Probability": 0
+      }
+   }
+]
