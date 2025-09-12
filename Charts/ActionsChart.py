@@ -1,8 +1,6 @@
-#toggle between free actions, normal, and all
-
 import plotly.graph_objects as go
 import pandas as pd
-
+import json
 import sys
 import os
 current = os.path.dirname(os.path.realpath(__file__))
@@ -12,81 +10,102 @@ import Main
 
 df = pd.read_csv(Main.DATAPATH.joinpath("Actions.csv"))
 
-ACTIONS = ["Aim", "Dodge", "Move", "Standby", "Attack", "Recover", "Restore", "Force Push", "Jedi Mind Trick", "Knife Throw", "Vader's Might"]
+ACTIONS = ["Aim", "Dodge", "Move", "Standby", "Attack", "Recover", "Force Push", "Force Choke", "Quick Thinking"]
 MOVES = ["Withdraw", "Move", "Climb", "Scout"]
 
-#region Get and Sort Actions
-redActionCounts = []
-blueActionCounts = []
-for action in ACTIONS:
-    count = len(df[
-        (df["Action 1"] == action) &
-        (df["Player"] == "Red")
-        ])
-    count = count + len(df[
-        (df["Action 2"] == action) &
-        (df["Player"] == "Red")
-        ])
-    redActionCounts.append(count)
-    count = len(df[
-        (df["Action 1"] == action) &
-        (df["Player"] == "Blue")
-        ])
-    count = count + len(df[
-        (df["Action 2"] == action) &
-        (df["Player"] == "Blue")
-        ])
-    blueActionCounts.append(count)
-#endregion
+fullData = []
+with open(Main.DATAPATH.joinpath("full_data.json"), "r") as file:
+    fullData = json.load(file)
 
-#region Get and Sort Free Actions
-redFreeActionCounts = [0 for i in range(len(ACTIONS))]
-blueFreeActionCounts = [0 for i in range(len(ACTIONS))]
-for index, row in df.iterrows():
-    freeActions = row["Free Actions"]
-    if not pd.isnull(freeActions):
-        freeActions = freeActions.split("//")
-        for action in freeActions:
-            if action in MOVES:
-                index = ACTIONS.index("Move")
-                if row["Player"] == "Blue":
-                    blueFreeActionCounts[index] = blueFreeActionCounts[index] + 1
-                else:
-                    redFreeActionCounts[index] = redFreeActionCounts[index] + 1
-            else:
-                index = ACTIONS.index(action)
-                if row["Player"] == "Blue":
-                    blueFreeActionCounts[index] = blueFreeActionCounts[index] + 1
-                else:
-                    redFreeActionCounts[index] = redFreeActionCounts[index] + 1
-#endregion
+actionCounts = {"Red": [0 for x in ACTIONS],
+                "Blue": [0 for x in ACTIONS]}
+freeActionCounts = {"Red": [0 for x in ACTIONS],
+                    "Blue": [0 for x in ACTIONS]}
+
+for activation in fullData:
+    player = activation["Player"].title()
+    for action in activation["Actions"]:
+        if action in MOVES:
+            actionCounts[player][ACTIONS.index("Move")] = actionCounts[player][ACTIONS.index("Move")] + 1
+        else:
+            actionCounts[player][ACTIONS.index(action)] = actionCounts[player][ACTIONS.index(action)] + 1
+    for action in activation["Free Actions"]:
+        freeActionCounts[player][ACTIONS.index(action)] = freeActionCounts[player][ACTIONS.index(action)] + 1
+
 
 actionsDF = pd.DataFrame({
-    "red_actions": redActionCounts,
-    "blue_actions": blueActionCounts,
-    "red_free_actions": redFreeActionCounts,
-    "blue_free_actions": blueFreeActionCounts,
-    "red_all_actions": [redActionCounts[i] + redFreeActionCounts[i] for i in range(len(ACTIONS))],
-    "blue_all_actions": [blueActionCounts[i] + blueFreeActionCounts[i] for i in range(len(ACTIONS))]
+    "red_actions": actionCounts["Red"],
+    "blue_actions": actionCounts["Blue"],
+    "red_free_actions": freeActionCounts["Red"],
+    "blue_free_actions": freeActionCounts["Blue"],
+    "red_all_actions": [actionCounts["Red"][i] + freeActionCounts["Red"][i] for i in range(len(ACTIONS))],
+    "blue_all_actions": [actionCounts["Blue"][i] + freeActionCounts["Blue"][i] for i in range(len(ACTIONS))]
 })
 
 fig = go.Figure()
 
 fig.add_bar(
     x=ACTIONS, y=actionsDF["blue_all_actions"],
-    name=Main.BLUE, marker_color=Main.BLUE_COLOR_PRIMARY
+    name=Main.BLUE, marker_color=Main.BLUE_COLOR_PRIMARY,
+    visible=False
+)
+
+fig.add_bar(
+    x=ACTIONS, y=actionsDF["blue_actions"],
+    name=Main.BLUE, marker_color=Main.BLUE_COLOR_PRIMARY,
+    visible=True
+)
+
+fig.add_bar(
+    x=ACTIONS, y=actionsDF["blue_free_actions"],
+    name=Main.BLUE, marker_color=Main.BLUE_COLOR_PRIMARY,
+    visible=False
 )
 
 fig.add_bar(
     x=ACTIONS, y=actionsDF["red_all_actions"],
-    name=Main.RED, marker_color=Main.RED_COLOR_PRIMARY
+    name=Main.RED, marker_color=Main.RED_COLOR_PRIMARY,
+    visible=False
+)
+fig.add_bar(
+    x=ACTIONS, y=actionsDF["red_actions"],
+    name=Main.RED, marker_color=Main.RED_COLOR_PRIMARY,
+    visible=True
+)
+fig.add_bar(
+    x=ACTIONS, y=actionsDF["red_free_actions"],
+    name=Main.RED, marker_color=Main.RED_COLOR_PRIMARY,
+    visible=False
 )
 
 fig.update_layout(
     bargap=0, bargroupgap=0,
     title = "Actions Performed",
     yaxis_title = "Count",
-    xaxis_title = "Action"
+    xaxis_title = "Type",
+    updatemenus=[
+        dict(
+            type="buttons",
+            direction="right",
+            active=1,
+            x=0.57,
+            y=1.2,
+            buttons=list([
+                dict(label="Free Actions",
+                        method="update",
+                        args=[{"visible": [False, False, True, False, False, True]},
+                            {"title": "Free Actions"}]),
+                dict(label="Actions",
+                        method="update",
+                        args=[{"visible": [False, True, False, False, True, False]},
+                            {"title": "Actions"}]),
+                dict(label="All",
+                        method="update",
+                        args=[{"visible": [True, False, False, True, False, False]},
+                            {"title": "All Actions"}]),
+            ]),
+        )
+    ]
 )
 
 fig.show()
