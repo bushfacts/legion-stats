@@ -10,31 +10,54 @@ import Main
 
 df = pd.read_csv(Main.DATAPATH.joinpath("VPs.csv"))
 
+bluePrev = []
+redPrev = []
+for index, row in df.iterrows():
+    bluePrev.append(df["Blue Primary"].iloc[0:index].sum() + df["Blue Secondary"].iloc[0:index].sum())
+    redPrev.append(df["Red Primary"].iloc[0:index].sum() + df["Red Secondary"].iloc[0:index].sum())
+print(bluePrev)
+print(redPrev)
 
+df["blue_previously_scored"] = bluePrev
+df["red_previously_scored"] = redPrev
 
 fig = go.Figure()
 
 fig.add_bar(
-    x=df["center_point"], y=df["base"], width=df["dice_count"],
-    name="Overlap", marker_color=Main.BASE_COLOR
+    x=df["Round"], y=df["blue_previously_scored"],
+    name="Previously Scored", marker_color=Main.BASE_COLOR, offsetgroup="Blue Player"
 )
 
 fig.add_bar(
-    x=df["center_point"], y=df["blue_luck"], width=df["dice_count"],
-    name=Main.BLUE + " luck", marker_color=Main.BLUE_COLOR_PRIMARY
+    x=df["Round"], y=df["Blue Primary"],
+    name=Main.BLUE + " Primary", marker_color=Main.BLUE_COLOR_PRIMARY, offsetgroup="Blue Player"
 )
 
 fig.add_bar(
-    x=df["center_point"], y=df["red_luck"], width=df["dice_count"],
-    name=Main.RED + " luck", marker_color=Main.RED_COLOR_PRIMARY
+    x=df["Round"], y=df["Blue Secondary"],
+    name=Main.BLUE + " Secondary", marker_color=Main.BLUE_COLOR_SECONDARY, offsetgroup="Blue Player"
+)
+
+fig.add_bar(
+    x=df["Round"], y=df["red_previously_scored"],
+    name="Previously Scored", marker_color=Main.BASE_COLOR, offsetgroup="Red Player"
+)
+
+fig.add_bar(
+    x=df["Round"], y=df["Red Primary"],
+    name=Main.BLUE + " Primary", marker_color=Main.RED_COLOR_PRIMARY, offsetgroup="Red Player"
+)
+
+fig.add_bar(
+    x=df["Round"], y=df["Red Secondary"],
+    name=Main.BLUE + " Secondary", marker_color=Main.RED_COLOR_SECONDARY, offsetgroup="Red Player"
 )
 
 fig.update_layout(
     barmode = "stack",
-    bargap=0, bargroupgap=0,
-    title = "Attack Dice Luck Comparison",
-    yaxis_title = "Luck",
-    xaxis_title = "Total Dice Rolled"
+    title = "Victory Points Scored",
+    yaxis_title = "Victory Points",
+    xaxis_title = "Round"
 )
 
 
