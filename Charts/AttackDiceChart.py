@@ -1,6 +1,4 @@
-#also, general note, get all the charts MADE, then worry about labeling and interactivity
-
-# sorting might look cool
+# add vertical line separating each round
 
 import plotly.graph_objects as go
 import json
@@ -22,7 +20,6 @@ timeData = []
 blueData = []
 redData = []
 diceCountData = []
-# label data
 round = []
 activationCounts = []
 attacker = []
@@ -60,7 +57,7 @@ for activation in fullData:
             defenseDice.append(0)
             defenseBlocks.append(0)
         defendingUnit.append(activation["Target"][targetNumber])
-        wounds.append(int(activation["Wounds"][targetNumber]))
+        wounds.append(int(float(activation["Wounds"][targetNumber])))
         if data["Offense"]["Name"] == Main.BLUE:
             blueData.append(data["Offense"]["Probability"])
             if "Defense" in data:
@@ -117,15 +114,14 @@ for index, row in df.iterrows():
         blueSortWeights.append(-1 * row["red"])
 
 df["blue_sort_weights"] = blueSortWeights
+sortedDF = df.sort_values("blue_sort_weights", ascending=False)
 
-df = df.sort_values("blue_sort_weights", ascending=False)
+fig = go.Figure()
 
-
+#region traces for unsorted view
 edges = [0] + [sum(df["dice_count"][:i+1]) for i in range(len(df["dice_count"]))]
 centers = [(edges[i] + edges[i+1])/2 for i in range(len(df["dice_count"]))]
 df = df.assign(center_point=centers)
-
-fig = go.Figure()
 
 hoverDataDF = df[["blue_probability", "red_probability", "attacking_unit", "defending_unit",
                    "attacker", "defender", "round", "activation_number", "wounds",
@@ -148,13 +144,61 @@ fig.add_bar(
     name=Main.RED + " luckier", marker_color=Main.RED_COLOR_PRIMARY,
     customdata=hoverDataDF
 )
+#endregion
+
+#region add traces for sorted view
+sortedEdges = [0] + [sum(sortedDF["dice_count"][:i+1]) for i in range(len(sortedDF["dice_count"]))]
+sortedCenters = [(sortedEdges[i] + sortedEdges[i+1])/2 for i in range(len(sortedDF["dice_count"]))]
+sortedDF = sortedDF.assign(center_point=sortedCenters)
+
+sortedHoverDataDF = sortedDF[["blue_probability", "red_probability", "attacking_unit", "defending_unit",
+                   "attacker", "defender", "round", "activation_number", "wounds",
+                   "attack_dice", "attack_hits", "defense_dice", "defense_blocks"]]
+
+fig.add_bar(
+    x=sortedDF["center_point"], y=sortedDF["base"], width=sortedDF["dice_count"],
+    name="Overlap", marker_color=Main.BASE_COLOR,
+    visible=False, customdata=sortedHoverDataDF
+)
+
+fig.add_bar(
+    x=sortedDF["center_point"], y=sortedDF["blue_luck"], width=sortedDF["dice_count"],
+    name=Main.BLUE + " luckier", marker_color=Main.BLUE_COLOR_PRIMARY,
+    visible=False, customdata=sortedHoverDataDF
+)
+
+fig.add_bar(
+    x=sortedDF["center_point"], y=sortedDF["red_luck"], width=sortedDF["dice_count"],
+    name=Main.RED + " luckier", marker_color=Main.RED_COLOR_PRIMARY,
+    visible=False, customdata=sortedHoverDataDF
+)
+#endregion
 
 fig.update_layout(
     barmode = "stack",
     bargap=0, bargroupgap=0,
     title = "Attack Dice Luck Comparison",
     yaxis_title = "Luck",
-    xaxis_title = "Total Dice Rolled"
+    xaxis_title = "Total Dice Rolled",
+    updatemenus=[
+        dict(
+            type="buttons",
+            direction="right",
+            active=1,
+            x=0.57,
+            y=1.2,
+            buttons=list([
+                dict(label="Time",
+                        method="update",
+                        args=[{"visible": [True, True, True, False, False, False]},
+                            {"title": "Time"}]),
+                dict(label="Sorted",
+                        method="update",
+                        args=[{"visible": [False, False, False, True, True, True]},
+                            {"title": "Sorted"}]),
+            ]),
+        )
+    ]
 )
 
 fig.update_traces(
@@ -174,11 +218,10 @@ fig.update_traces(
         "Red Probability: %{customdata[1]:,.0%}",
         "",
         "Wounds Dealt: %{customdata[8]}",
-        "</br>"
-    ]),
-    hoverinfo="none"
+        "</br><extra></extra>"
+    ])
 )
 
 fig.show()
 
-# fig.write_html(Main.DATAPATH.joinpath("Charts\\Attack Luck.html"))
+fig.write_html(Main.DATAPATH.joinpath("Charts\\Attack Luck.html"))
