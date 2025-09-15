@@ -1,0 +1,104 @@
+{
+    "author": "Legion HQ",
+    "listname": "The Bad Batch Was a Tariff Loophole",
+    "points": 1000,
+    "numActivations": 9,
+    "armyFaction": "republic",
+    "commandCards": [
+        "Call Me Captain",
+        "Size Matters Not",
+        "Take That, Clankers!",
+        "There Is No Try",
+        "Luminous Beings Are We",
+        "We're Not Programmed",
+        "Standing Orders"
+    ],
+    "contingencies": [],
+    "units": [
+        {
+            "name": "Yoda Grand Master of the Jedi Order",
+            "upgrades": [
+                "Burst of Speed",
+                "Force Push",
+                "Jedi Mind Trick"
+            ]
+        },
+        {
+            "name": "Clone Captain Rex Honorable Soldier",
+            "upgrades": [
+                "Trusted Agent",
+                "Up Close and Personal",
+                "Recon Intel"
+            ]
+        },
+        {
+            "name": "The Bad Batch Clone Force 99",
+            "upgrades": [
+                "Crosshair",
+                "Echo, Clone Force 99",
+                "Hunter",
+                "Tech",
+                "Wrecker"
+            ]
+        },
+        {
+            "name": "Clone Trooper Infantry",
+            "upgrades": [
+                "Clone Medic"
+            ]
+        },
+        {
+            "name": "Clone Trooper Infantry",
+            "upgrades": [
+                "Clone Medic"
+            ]
+        },
+        {
+            "name": "Clone Trooper Infantry",
+            "upgrades": [
+                "Clone Medic"
+            ]
+        },
+        {
+            "name": "Clone Commandos",
+            "upgrades": [
+                "Katarn Pattern Armor",
+                "DC-17m ICWS Config"
+            ]
+        },
+        {
+            "name": "Clone Commandos",
+            "upgrades": [
+                "Katarn Pattern Armor",
+                "DC-17m ICWS Config"
+            ]
+        },
+        {
+            "name": "Clone Commandos Delta Squad",
+            "upgrades": [
+                "Offensive Push",
+                "Katarn Pattern Armor",
+                "DC-17m ICWS Config"
+            ]
+        }
+    ],
+    "battlefieldDeck": {
+        "conditions": [
+            "Advanced Intel",
+            "Cunning Deployment",
+            "Ordnance"
+        ],
+        "deployment": [
+            "Close the Pocket",
+            "Recover the Research",
+            "Bunker Assault"
+        ],
+        "objective": [
+            "Bring Them to Heel",
+            "Recon Mission",
+            "Sweep and Clear"
+        ],
+        "scenario": "standard"
+    },
+    "listlink": "https://legionhq2.com/list/republic/1000:1olpqdtdw0,1fyBnruda00,1xixuxqxrxtxs,3fzoc00000,2xj0xl00xk,1xpjb0xl00xk,jt,pi,ju,pj,pk,ir,Ai,Ak,Ah,Aa,Ad,Af,yu,yv,yy"
+}
