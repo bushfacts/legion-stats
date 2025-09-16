@@ -1,0 +1,111 @@
+{
+    "author": "Legion HQ",
+    "listname": "Untitled",
+    "points": 999,
+    "numActivations": 9,
+    "armyFaction": "",
+    "battleForce": "Shadow Collective",
+    "commandCards": [
+        "Duel of the Fates",
+        "Witch Magick",
+        "His Eminence",
+        "The Phantom Menace",
+        "Seize What Power We Can",
+        "At Last",
+        "Standing Orders"
+    ],
+    "contingencies": [],
+    "units": [
+        {
+            "name": "Maul A Rival",
+            "upgrades": [
+                "Force Choke",
+                "Force Push",
+                "Improvised Orders",
+                "Into the Fray",
+                "The Darksaber (Maul)"
+            ]
+        },
+        {
+            "name": "Black Sun Enforcers",
+            "upgrades": [
+                "Scatter Gun Enforcer",
+                "Black Sun Vigo"
+            ]
+        },
+        {
+            "name": "Black Sun Enforcers",
+            "upgrades": [
+                "Scatter Gun Enforcer",
+                "Black Sun Vigo"
+            ]
+        },
+        {
+            "name": "Black Sun Enforcers",
+            "upgrades": [
+                "Scatter Gun Enforcer",
+                "Black Sun Vigo"
+            ]
+        },
+        {
+            "name": "Black Sun Enforcers",
+            "upgrades": [
+                "Scatter Gun Enforcer",
+                "Black Sun Vigo"
+            ]
+        },
+        {
+            "name": "Black Sun Enforcers",
+            "upgrades": [
+                "Mag-Det Enforcer",
+                "Black Sun Vigo",
+                "Environmental Gear",
+                "Fragmentation Grenades"
+            ]
+        },
+        {
+            "name": "Black Sun Enforcers",
+            "upgrades": [
+                "Mag-Det Enforcer",
+                "Black Sun Vigo",
+                "Environmental Gear",
+                "Fragmentation Grenades"
+            ]
+        },
+        {
+            "name": "Mandalorian Super Commandos",
+            "upgrades": [
+                "Super Commando Marksman",
+                "Emergency Transponder",
+                "Super Commando Jetpack Rockets"
+            ]
+        },
+        {
+            "name": "Mandalorian Super Commandos",
+            "upgrades": [
+                "Super Commando Marksman",
+                "Emergency Transponder",
+                "Super Commando Jetpack Rockets"
+            ]
+        }
+    ],
+    "battlefieldDeck": {
+        "conditions": [
+            "Advanced Intel",
+            "Cunning Deployment",
+            "Ordnance"
+        ],
+        "deployment": [
+            "Intercept Signals",
+            "Bunker Assault",
+            "Close the Pocket"
+        ],
+        "objective": [
+            "Sweep and Clear",
+            "Recon Mission",
+            "Surface Scan"
+        ],
+        "scenario": "standard"
+    },
+    "listlink": "https://legionhq2.com/list/mercenary/1000:sc:1rcdydtcwpsrq,4rbrnrl00,2rbrmrldedj,2resd0sf00sa,mw,rr,rs,ni,rt,nj,Aj,Ah,Ai,Af,Ad,Ae,yu,yv,yy"
+}
