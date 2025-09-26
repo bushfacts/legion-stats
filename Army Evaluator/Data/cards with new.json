@@ -23864,6 +23864,7 @@
   "De": {
     "id": "De",
     "cardName": "Jedi Guardian",
+    "ttsName": "Jedi Guardian (Doctrine)",
     "cardType": "upgrade",
     "cardSubtype": "doctrine",
     "cost": 10,
@@ -24612,4 +24613,5 @@
     "faction": "separatists",
     "keywords": []
   }
+
 }
